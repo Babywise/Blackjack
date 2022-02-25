@@ -3,7 +3,7 @@
 using namespace std;
 #include <stdio.h>
 #include <iostream>
-
+#define MAX_CARD 14
 class card {
 public:
 	string getSuit();

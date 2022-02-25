@@ -68,6 +68,11 @@ string card::getColour() {
 
 card::card(char suit, int value, char colour) {
 	this->suit = suit;
-	this->value = value;
+	if (value > 0 && value <= MAX_CARD) {
+		this->value = value;
+	}
+	else {
+		this->value = 0;
+	}
 	this->colour = colour;
 }

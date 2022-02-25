@@ -137,7 +137,7 @@ namespace UnitTests
 			string expected = "Error";
 
 			//act
-			string actual = heart->getColour();
+			string actual = heart->getSuit();
 
 			//assert
 			Assert::AreEqual(expected, actual);
