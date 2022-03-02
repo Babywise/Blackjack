@@ -44,12 +44,7 @@ void card::print() {
 	}
 }
 int card::getValue() {
-	if (this == NULL) {
-		return 0;
-	}
-	else {
 		return this->value;
-	}
 }
 
 
