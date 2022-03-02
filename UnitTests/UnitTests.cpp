@@ -169,7 +169,7 @@ namespace UnitTests
 	};
 	TEST_CLASS(Deck) {
 	public:
-		TEST_METHOD(initializer_One_Deck_12_Diamonds) {
+		TEST_METHOD(initializer_One_Deck_13_Diamonds) {
 			//setup
 			deck* d = new deck();
 			card* c = d->drawCard();
@@ -197,7 +197,7 @@ namespace UnitTests
 			Assert::AreEqual(expected_value, (int)values.size());
 		}
 
-		TEST_METHOD(initializer_One_Deck_12_Clubs) {
+		TEST_METHOD(initializer_One_Deck_13_Clubs) {
 			//setup
 			deck* d = new deck();
 			card* c = d->drawCard();
@@ -221,7 +221,7 @@ namespace UnitTests
 			//assert
 			Assert::AreEqual(expected_value, (int)values.size());
 		}
-		TEST_METHOD(initializer_One_Deck_12_Hearts) {
+		TEST_METHOD(initializer_One_Deck_13_Hearts) {
 			//setup
 			deck* d = new deck();
 			card* c = d->drawCard();
@@ -245,7 +245,7 @@ namespace UnitTests
 			//assert
 			Assert::AreEqual(expected_value, (int)values.size());
 		}
-		TEST_METHOD(initializer_One_Deck_12_Spades) {
+		TEST_METHOD(initializer_One_Deck_13_Spades) {
 			//setup
 			deck* d = new deck();
 			card* c = d->drawCard();
