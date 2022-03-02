@@ -3,7 +3,7 @@
 #include "Deck.h"
 using namespace Microsoft::VisualStudio::CppUnitTestFramework;
 
-namespace UnitTests
+namespace BlackJackObjects
 {
 	TEST_CLASS(Misc) {
 		TEST_METHOD(printCard)
