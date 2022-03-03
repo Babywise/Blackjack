@@ -1,5 +1,18 @@
 #pragma once
 #include "Packet.h"
+#include "PacketAddFunds.h"
+#include "PacketGameUpdate.h"
+#include "PacketLogin.h"
+#include "PacketManager.h"
+#include "PacketPlayerTurn.h"
+#include "PacketQuitGame.h"
+#include "PacketResponse.h"
+#include "PacketRoundUpdate.h"
+#include "PacketServerShutdown.h"
+#include "PacketSignUp.h"
+#include "PacketStartup.h"
+#include "PacketTableStatus.h"
+#include "PacketWithdrawFunds.h"
 
 class PacketManager {
 	Packet* packet;
@@ -20,7 +33,10 @@ public:
 		return this->pType;
 	}
 
+	//not used yet
 	Packet* doPacket(char* buffer) {
+
+		PacketLogin pp;
 
 		switch (this->pType)
 		{
@@ -60,34 +76,48 @@ public:
 private:
 	Packet* setupPacket(char* buffer) {
 
+		PacketLogin pp;
+
 		switch (this->pType)
 		{
 		case PacketType::packetInvalid:
 			//throw new exception("Not Implemented");
 			break;
 		case PacketType::packetStartUp:
+			return new PacketStartUp(buffer);
 			break;
 		case PacketType::packetResponse:
+			return new PacketResponse(buffer);
 			break;
 		case PacketType::packetTableStatus:
+			return new PacketTableStatus(buffer);
 			break;
 		case PacketType::packetGameUpdate:
+			return new PacketGameUpdate(buffer);
 			break;
 		case PacketType::packetRoundUpdate:
+			return new PacketRoundUpdate(buffer);
 			break;
 		case PacketType::packetAddFunds:
+			return new PacketAddFunds(buffer);
 			break;
 		case PacketType::packetWithdrawFunds:
+			return new PacketWithdrawFunds(buffer);
 			break;
 		case PacketType::packetPlayerTurn:
+			return new PacketPlayerTurn(buffer);
 			break;
 		case PacketType::packetQuitGame:
+			return new PacketQuitGame(buffer);
 			break;
 		case PacketType::packetServerShutdown:
+			return new PacketServerShutdown(buffer);
 			break;
 		case PacketType::packetLogin:
+			return new PacketLogin(buffer);
 			break;
 		case PacketType::packetSignup:
+			return new PacketSignUp(buffer);
 			break;
 		default:
 			return this->packet;

@@ -35,6 +35,9 @@
     <ClInclude Include="PacketWithdrawFunds.h" />
     <ClInclude Include="PotentialIncludes.h" />
   </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Server.cpp" />
+  </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
