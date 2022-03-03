@@ -51,5 +51,8 @@
     <ClInclude Include="PacketSignUp.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="PacketStartup.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

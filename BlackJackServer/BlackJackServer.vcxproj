@@ -30,6 +30,7 @@
     <ClInclude Include="PacketRoundUpdate.h" />
     <ClInclude Include="PacketServerShutdown.h" />
     <ClInclude Include="PacketSignUp.h" />
+    <ClInclude Include="PacketStartup.h" />
     <ClInclude Include="PotentialIncludes.h" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
