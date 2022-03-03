@@ -4,11 +4,14 @@
 
 #include "Packet.h"
 
+const int roundUpdateMaxPublicCards = externalMaxPublicCards;
+const int roundUpdateMaxPlayers = externalMaxPlayers;
+
 class PacketRoundUpdate : public Packet {
 
 	struct Body {
-		int totalValues[maxPlayers] = {};
-		Card faceUpCards[maxPlayers][maxPublicCards] = {};
+		int totalValues[roundUpdateMaxPlayers] = {};
+		Card* faceUpCards[roundUpdateMaxPublicCards] = {};
 	} Body;
 
 public:
@@ -37,13 +40,13 @@ public:
 
 	//needs fixing
 
-	/*void setFaceUpCards(Card* faceUpCards[]) {
+	void setFaceUpCards(Card* faceUpCards[roundUpdateMaxPublicCards]) {
 		memcpy(this->Body.faceUpCards, faceUpCards, sizeof(this->Body.faceUpCards));
 	}
 
 	Card** getFaceUpCards() {
-		return reinterpret_cast<Card**>(this->Body.faceUpCards);
-	}*/
+		return this->Body.faceUpCards;
+	}
 
 	char* serialize() {
 		unsigned int TotalSize = emptyPacketSize + this->Head.Bytes;

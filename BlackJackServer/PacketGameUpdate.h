@@ -1,12 +1,14 @@
 #pragma once
 #include "Packet.h"
 
+const int gameUpdateMaxPlayers = externalMaxPlayers;
+
 class PacketGameUpdate : public Packet {
 
 	struct Body {
-		string usernames[maxPlayers] = {};
-		int bets[maxPlayers] = {};
-		Card faceUpCards[maxPlayers] = {};
+		string usernames[gameUpdateMaxPlayers] = {};
+		int bets[gameUpdateMaxPlayers] = {};
+		Card faceUpCards[gameUpdateMaxPlayers] = {};
 	} Body;
 
 public:

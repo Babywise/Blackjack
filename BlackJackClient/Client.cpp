@@ -46,6 +46,35 @@ int main(void) {
 		return 0;
 	}
 
+	Card* faceUpCards[externalMaxPublicCards] = {};
+
+	for (int h = 0; h < externalMaxPlayers; h++)
+	{
+		faceUpCards[h] = new Card[externalMaxPublicCards];
+
+		for (int w = 0; w < externalMaxPublicCards; w++)
+		{
+			// fill in some initial values
+			// (filling in zeros would be more logic, but this is just for the example)
+			faceUpCards[h][w] = Card();
+		}
+	}
+
+	faceUpCards[0][1] = Card();
+	faceUpCards[0][1].num = 10;
+	faceUpCards[9][1] = Card();
+	faceUpCards[9][1].num = 50;
+
+	PacketRoundUpdate pRU;
+
+	pRU.setFaceUpCards(faceUpCards);
+	Card** fp = pRU.getFaceUpCards();
+
+	std::cout << fp[0][1].num;
+	std::cout << fp[9][1].num;
+	//pRU.getFaceUpCards();
+
+
 	PacketSignUp pp;
 	string name, username, password;
 	int age = 0;
@@ -70,6 +99,8 @@ int main(void) {
 
 	send(ClientSocket, pM.getPacket()->serialize(), maxPacketSize, 0);
 
+	
+
 
 	//closes connection and socket
 	closesocket(ClientSocket);
@@ -80,6 +111,7 @@ int main(void) {
 	int garbage;
 	std::cin >> garbage;
 
+	return 0;
 	return 0;
 
 }
