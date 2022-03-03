@@ -48,14 +48,10 @@ int main(void) {
 
 	Card* faceUpCards[externalMaxPublicCards] = {};
 
-	for (int h = 0; h < externalMaxPlayers; h++)
-	{
+	for (int h = 0; h < externalMaxPlayers; h++) {
 		faceUpCards[h] = new Card[externalMaxPublicCards];
 
-		for (int w = 0; w < externalMaxPublicCards; w++)
-		{
-			// fill in some initial values
-			// (filling in zeros would be more logic, but this is just for the example)
+		for (int w = 0; w < externalMaxPublicCards; w++) {
 			faceUpCards[h][w] = Card();
 		}
 	}
