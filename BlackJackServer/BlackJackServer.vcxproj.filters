@@ -39,5 +39,8 @@
     <ClInclude Include="PacketQuitGame.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="PacketResponse.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
