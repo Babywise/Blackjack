@@ -30,5 +30,8 @@
     <ClInclude Include="PacketGameUpdate.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="PacketLogin.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
