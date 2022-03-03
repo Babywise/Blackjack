@@ -27,6 +27,7 @@
     <ClInclude Include="PacketPlayerTurn.h" />
     <ClInclude Include="PacketQuitGame.h" />
     <ClInclude Include="PacketResponse.h" />
+    <ClInclude Include="PacketRoundUpdate.h" />
     <ClInclude Include="PotentialIncludes.h" />
   </ItemGroup>
   <PropertyGroup Label="Globals">

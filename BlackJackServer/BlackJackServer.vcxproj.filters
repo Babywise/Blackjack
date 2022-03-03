@@ -42,5 +42,8 @@
     <ClInclude Include="PacketResponse.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="PacketRoundUpdate.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
