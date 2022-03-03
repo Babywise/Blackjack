@@ -38,8 +38,6 @@ public:
 		return this->Body.totalValues;
 	}
 
-	//needs fixing
-
 	void setFaceUpCards(Card* faceUpCards[roundUpdateMaxPublicCards]) {
 		memcpy(this->Body.faceUpCards, faceUpCards, sizeof(this->Body.faceUpCards));
 	}
