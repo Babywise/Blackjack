@@ -57,5 +57,8 @@
     <ClInclude Include="PacketTableStatus.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="PacketWithdrawFunds.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
