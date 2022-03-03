@@ -26,7 +26,7 @@ public:
 	}
 
 	void setUsernames(string* usernames) {
-		memcpy(this->Body.usernames, usernames, sizeof(this->Body.usernames));
+		std::memcpy(this->Body.usernames, usernames, sizeof(this->Body.usernames));
 	}
 
 	string* getUsernames() {
@@ -34,7 +34,7 @@ public:
 	}
 
 	void setBets(int* bets) {
-		memcpy(this->Body.bets, bets, sizeof(this->Body.bets));
+		std::memcpy(this->Body.bets, bets, sizeof(this->Body.bets));
 	}
 
 	int* getBets() {
@@ -42,7 +42,7 @@ public:
 	}
 
 	void setFaceUpCards(int* faceUpCards) {
-		memcpy(this->Body.faceUpCards, faceUpCards, sizeof(this->Body.faceUpCards));
+		std::memcpy(this->Body.faceUpCards, faceUpCards, sizeof(this->Body.faceUpCards));
 	}
 
 	Card* getFaceUpCards() {

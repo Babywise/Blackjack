@@ -28,7 +28,7 @@ public:
 	}
 
 	void setTotalValues(int* totalValues) {
-		memcpy(this->Body.totalValues, totalValues, sizeof(this->Body.totalValues));
+		std::memcpy(this->Body.totalValues, totalValues, sizeof(this->Body.totalValues));
 	}
 
 	int* getTotalValues() {

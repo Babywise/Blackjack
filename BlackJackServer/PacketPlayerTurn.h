@@ -26,7 +26,7 @@ public:
 	}
 
 	void setOptions(string* options) {
-		memcpy(this->Body.options, options, sizeof(this->Body.options));
+		std::memcpy(this->Body.options, options, sizeof(this->Body.options));
 	}
 
 	string* getOptions() {
