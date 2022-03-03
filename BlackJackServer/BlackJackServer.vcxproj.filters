@@ -24,5 +24,8 @@
     <ClInclude Include="PotentialIncludes.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="PacketAddFunds.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
