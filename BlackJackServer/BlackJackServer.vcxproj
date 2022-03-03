@@ -28,6 +28,7 @@
     <ClInclude Include="PacketQuitGame.h" />
     <ClInclude Include="PacketResponse.h" />
     <ClInclude Include="PacketRoundUpdate.h" />
+    <ClInclude Include="PacketServerShutdown.h" />
     <ClInclude Include="PotentialIncludes.h" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
