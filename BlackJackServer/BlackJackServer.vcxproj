@@ -21,6 +21,7 @@
   <ItemGroup>
     <ClInclude Include="Packet.h" />
     <ClInclude Include="PacketAddFunds.h" />
+    <ClInclude Include="PacketGameUpdate.h" />
     <ClInclude Include="PacketManager.h" />
     <ClInclude Include="PotentialIncludes.h" />
   </ItemGroup>
