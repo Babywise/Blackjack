@@ -7,9 +7,6 @@ int main()
 
    
     printf("Hello World");
-	fstream f;
-	f.open(("./Users/Test"), ios::out);
-	f.close();
 
     return 0;
 }

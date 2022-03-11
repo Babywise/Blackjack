@@ -7,7 +7,7 @@ using namespace Microsoft::VisualStudio::CppUnitTestFramework;
 namespace BlackJackObjects
 {
 	TEST_CLASS(AccountTests) {
-		TEST_METHOD(initalizer) {
+		TEST_METHOD(account_initalizer) {
 			account* acc = new account("Test", 20, 20, "Testing");
 
 			if (acc->getAge() != 20) {
