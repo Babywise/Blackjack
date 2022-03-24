@@ -23,7 +23,7 @@ public:
 	string getName();
 	void reduceFunds(float funds);
 	void addFunds(float funds);
-	SOCKET connection = {};
+	SOCKET* connection = {};
 
 private:
 	string username;

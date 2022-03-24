@@ -11,6 +11,7 @@ public:
 	string getColour();
 	void print();
 	card(char suit, int value, char colour);
+	card() { suit = 'n', value = 0, colour = 'n'; };
 private:
 	char suit;
 	int value;

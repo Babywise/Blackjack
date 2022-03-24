@@ -1,0 +1,6 @@
+#pragma once
+#define PORT "8080"
+#define MAXCONNECTIONS 100
+#define DISPLAYBUFFERSIZE 20
+#define DISPLAYDATA 30
+#define SENDBUFFERSIZE 5000
