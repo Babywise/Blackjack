@@ -44,6 +44,9 @@ void card::print() {
 	}
 }
 int card::getValue() {
+	if (this == nullptr) {
+		return 0;
+	}
 		return this->value;
 }
 
