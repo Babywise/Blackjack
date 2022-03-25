@@ -128,6 +128,7 @@ namespace BlackJackObjects
 			game->dealCards();
 			game->takeBets();
 			int gamesPlayed = 0;
+
 			int expected = game->computers.front()->games+1;
 
 			// Action
@@ -150,11 +151,321 @@ namespace BlackJackObjects
 		{
 
 		}
+		TEST_METHOD(getCardValueJack)
+		{
+			//setup
+			dealer* deal = new dealer;
+			card* CARD = new card('s', 11, 'b');
+			deal->getCard(CARD);
+			int expected = 10;
+			int actual = 0;
+
+			//action
+			actual = deal->getCardTotal();
+
+			//assert
+			Assert::AreEqual(expected, actual);
+		}
+		TEST_METHOD(getCardValueQueen)
+		{
+			//setup
+			dealer* deal = new dealer;
+			card* CARD = new card('s', 12, 'b');
+			deal->getCard(CARD);
+			int expected = 10;
+			int actual = 0;
+
+			//action
+			actual = deal->getCardTotal();
+
+			//assert
+			Assert::AreEqual(expected, actual);
+		}
+		TEST_METHOD(getCardValueKing)
+		{
+			//setup
+			dealer* deal = new dealer;
+			card* CARD = new card('s', 13, 'b');
+			deal->getCard(CARD);
+			int expected = 10;
+			int actual = 0;
+
+			//action
+			actual = deal->getCardTotal();
+
+			//assert
+			Assert::AreEqual(expected, actual);
+		}
+		TEST_METHOD(getCardValueAceAs11)
+		{
+			//setup
+			dealer* deal = new dealer;
+			card* CARD = new card('s', 14, 'b');
+			deal->getCard(CARD);
+			int expected = 11;
+			int actual = 0;
+
+			//action
+			actual = deal->getCardTotal();
+
+			//assert
+			Assert::AreEqual(expected, actual);
+		}
+		TEST_METHOD(getCardValueAceAs1)
+		{
+			//setup
+			dealer* deal = new dealer;
+			card* CARD = new card('s', 10, 'b');
+			card* CARDTwo = new card('s', 14, 'b');
+			deal->getCard(CARD);
+			deal->getCard(CARD);
+			deal->getCard(CARDTwo);
+			int expected = 21;
+			int actual = 0;
+
+			//action
+			actual = deal->getCardTotal();
+
+			//assert
+			Assert::AreEqual(expected, actual);
+		}
+		TEST_METHOD(Destroy)
+		{
+			//setup
+			blackjack* j = new blackjack;
+
+			//action
+			delete(j);
+
+		}
+		TEST_METHOD(BotsAddedAtStartOfGame)
+		{
+			//setup
+			blackjack* j = new blackjack;
+			j->computers.pop();
+			int expectedBots = 4;
+			
+			//action
+			j->startGame();
+
+			//assert
+			Assert::AreEqual(expectedBots, (int)j->computers.size());
+
+		}
+		TEST_METHOD(savegame)
+		{
+			//setup
+		
+			
+			account* p1 = new account("Danny", 0, 0, "Danny");
+			player* players[1];
+			player* play = new player(p1);
+			players[0] = play;
+			blackjack* game = new blackjack(players, 3, 1);
+			game->computers.pop();
+			//action
+			game->save();
+
+			//assert
+	
+
+		}
+		
 	};
-	TEST_CLASS(AI) {
+	TEST_CLASS(AI_Tests) {
+		TEST_METHOD(getcard)
+		{
+			//setup
+			AI* deal = new AI;
+			deck* DECK = new deck(2);
+			int non_expected = deal->getCardTotal();
+			int result = 0;
+
+			//action
+			deal->getCard(DECK->drawCard());
+			result = deal->getCardTotal();
+
+			//assert
+			Assert::AreNotEqual(non_expected, result);
+
+		}
+		TEST_METHOD(taketurn)
+		{
+			//setup
+			AI* deal = new AI;
+			bool pass = false;
+			string options[4] = { "h","b","j","k" };
+			string result = deal->turn(options, 4);
+			//action
+
+			if (result == options[0] || result == options[1] || result == options[2] || result == options[3]) {
+				pass = true;
+			}
+
+			//assert
+			Assert::AreEqual(true, pass);
+		}
+		TEST_METHOD(getcardtotal)
+		{
+			//setup
+			AI* deal = new AI;
+			card* CARD = new card('s', 3, 'b');
+			deal->getCard(CARD);
+			int expected = 3;
+			int actual = 0;
+
+			//action
+			actual = deal->getCardTotal();
+
+			//assert
+			Assert::AreEqual(expected, actual);
+
+		}
+		TEST_METHOD(reset)
+		{
+			//setup
+			AI* deal = new AI;
+			card* CARD = new card('s', 3, 'b');
+			deal->getCard(CARD);
+			int expected = 0;
+			int actual = 4;
+
+			//action
+			actual = deal->getCardTotal();
+			deal->reset();
+			actual = deal->getCardTotal();
+
+			//assert
+			Assert::AreEqual(expected, actual);
+		}
+	
 	};
 
 	TEST_CLASS(Player) {
+		TEST_METHOD(getcard)
+		{
+			//setup
+			account* acc = new account("temp", 0, 0, "hi");
+			player* deal = new player(acc);
+			deck* DECK = new deck(2);
+			int non_expected = deal->getCardTotal();
+			int result = 0;
+
+			//action
+			deal->getCard(DECK->drawCard());
+			result = deal->getCardTotal();
+
+			//assert
+			Assert::AreNotEqual(non_expected, result);
+
+		}
+		TEST_METHOD(getcardJack)
+		{
+			//setup
+			account* acc = new account("temp", 0, 0, "hi");
+			player* deal = new player(acc);
+			deck* DECK = new deck(2);
+			int expected = 20;
+			int result = 0;
+			card* CARD = new card('s', 11, 'b');
+			//action
+			deal->getCard(CARD);
+			deal->getCard(CARD);
+			result = deal->getCardTotal();
+
+			//assert
+			Assert::AreEqual(expected, result);
+
+		}
+		TEST_METHOD(getcardQueen)
+		{
+			//setup
+			account* acc = new account("temp", 0, 0, "hi");
+			player* deal = new player(acc);
+			deck* DECK = new deck(2);
+			int expected = 20;
+			int result = 0;
+			card* CARD = new card('s', 12, 'b');
+			//action
+			deal->getCard(CARD);
+			deal->getCard(CARD);
+			result = deal->getCardTotal();
+
+			//assert
+			Assert::AreEqual(expected, result);
+
+		}
+		TEST_METHOD(getcardKing)
+		{
+			//setup
+			account* acc = new account("temp", 0, 0, "hi");
+			player* deal = new player(acc);
+			deck* DECK = new deck(2);
+			int expected = 20;
+			int result = 0;
+			card* CARD = new card('s', 13, 'b');
+			//action
+			deal->getCard(CARD);
+			deal->getCard(CARD);
+			result = deal->getCardTotal();
+
+			//assert
+			Assert::AreEqual(expected, result);
+
+		}
+		TEST_METHOD(getcardAce)
+		{
+			//setup
+			account* acc = new account("temp", 0, 0, "hi");
+			player* deal = new player(acc);
+			deck* DECK = new deck(2);
+			int expected = 12;
+			int result = 0;
+			card* CARD = new card('s', 14, 'b');
+			//action
+			deal->getCard(CARD);
+			deal->getCard(CARD);
+			result = deal->getCardTotal();
+
+			//assert
+			Assert::AreEqual(expected, result);
+
+		}
+		TEST_METHOD(getcardtotal)
+		{
+			//setup
+			account* acc = new account("temp", 0, 0, "hi");
+			player* deal = new player(acc);
+			card* CARD = new card('s', 3, 'b');
+			deal->getCard(CARD);
+			int expected = 3;
+			int actual = 0;
+
+			//action
+			actual = deal->getCardTotal();
+
+			//assert
+			Assert::AreEqual(expected, actual);
+
+		}
+		TEST_METHOD(reset)
+		{
+			//setup
+			account* acc = new account("temp", 0, 0, "hi");
+			player* deal = new player(acc);
+			card* CARD = new card('s', 3, 'b');
+			deal->getCard(CARD);
+			int expected = 0;
+			int actual = 4;
+
+			//action
+			actual = deal->getCardTotal();
+			deal->reset();
+			actual = deal->getCardTotal();
+
+			//assert
+			Assert::AreEqual(expected, actual);
+		}
 	};
 
 	TEST_CLASS(Dealer) {
@@ -225,3 +536,7 @@ namespace BlackJackObjects
 		}
 	};
 }
+
+
+
+//player, ai, turn, getcardtotal_for-all-face-values, destructor,deal-bets,save-thread, deal-cards-to-players, remove-bot-then-start-game

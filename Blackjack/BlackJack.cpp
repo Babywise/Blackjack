@@ -709,6 +709,7 @@ blackjack::blackjack(player* players[], int computers, int people, int difficult
 }
 blackjack::~blackjack()
 {
+	this->terminated = true;
 	this->saveThread.join();
 	while (!this->computers.empty()) { // delete all computers
 		delete(this->computers.front());
