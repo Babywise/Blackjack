@@ -140,6 +140,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="..\UnitTests\Logging.cpp" />
     <ClCompile Include="Account.cpp" />
     <ClCompile Include="BlackJack.cpp" />
     <ClCompile Include="BlackJack.h" />
@@ -152,6 +153,7 @@
     <ClInclude Include="Account.h" />
     <ClInclude Include="card.h" />
     <ClInclude Include="Deck.h" />
+    <ClInclude Include="Logging.h" />
     <ClInclude Include="Packet.h" />
     <ClInclude Include="PacketLogin.h" />
     <ClInclude Include="PacketManager.h" />
