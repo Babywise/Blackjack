@@ -1,5 +1,6 @@
 #include "BlackJackQT.h"
 #include <QtWidgets/QApplication>
+#include "CasinoHomePage.h"
 
 #include <iostream>
 
@@ -9,7 +10,9 @@ int main(int argc, char *argv[])
 {
     QApplication a(argc, argv);
     BlackJackQT w;
-    w.show();
+    CasinoHomePage h;
+    //w.show();
+    h.show();
 
 	cout << "Hello World!" << endl;
 
