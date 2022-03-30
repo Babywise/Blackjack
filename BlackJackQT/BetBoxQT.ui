@@ -1,23 +1,268 @@
-<UI version="4.0" >
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
  <class>BetBoxQT</class>
- <widget class="QWidget" name="BetBoxQT" >
-  <property name="objectName" >
-   <string notr="true">BetBoxQT</string>
-  </property>
-  <property name="geometry" >
+ <widget class="QWidget" name="BetBoxQT">
+  <property name="geometry">
    <rect>
-	<x>0</x>
-	<y>0</y>
-	<width>400</width>
-	<height>300</height>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>600</height>
    </rect>
   </property>
-  <property name="windowTitle" >
+  <property name="windowTitle">
    <string>BetBoxQT</string>
   </property>
+  <widget class="QWidget" name="widget" native="true">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>801</width>
+     <height>601</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QWidget#widget{
+background-color: qlineargradient(spread:pad, x1:0.533545, y1:0.136, x2:0.988636, y2:1, stop:0 rgba(51, 5, 59, 255), stop:1 rgba(100, 0, 2, 255))
+}
+</string>
+   </property>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>250</x>
+      <y>60</y>
+      <width>311</width>
+      <height>121</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 48pt &quot;Tempus Sans ITC&quot;; color: rgb(255, 255, 255);</string>
+    </property>
+    <property name="text">
+     <string>Your Turn!</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="alertMessageLabel">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>230</y>
+      <width>201</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(255, 255, 255);
+font: 22pt &quot;Sitka&quot;;</string>
+    </property>
+    <property name="text">
+     <string>Current Balance:</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="alertMessageLabel_2">
+    <property name="geometry">
+     <rect>
+      <x>230</x>
+      <y>230</y>
+      <width>111</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(255, 255, 255);
+font: 22pt &quot;Sitka&quot;;</string>
+    </property>
+    <property name="text">
+     <string>2500</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="bet5Button">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>290</y>
+      <width>175</width>
+      <height>125</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true"> background-color: qlineargradient(spread:pad, x1:0.078, y1:0.0686364,  x2:1, y2:1, stop:0.242938 rgba(26, 44, 46, 255), stop:0.655367 rgba(36, 36, 54, 255));
+  border: 2px solid #1A1A1A;
+  border-radius: 15px;
+  box-sizing: border-box;
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+  display: inline-block;
+  font-family: Roobert,-apple-system,BlinkMacSystemFont,&quot;Segoe UI&quot;,Helvetica,Arial,sans-serif,&quot;Apple Color Emoji&quot;,&quot;Segoe UI Emoji&quot;,&quot;Segoe UI Symbol&quot;;
+  font-size: 16px;
+  font-weight: 600;
+</string>
+    </property>
+    <property name="text">
+     <string>Bet 5</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="bet100Button">
+    <property name="geometry">
+     <rect>
+      <x>130</x>
+      <y>430</y>
+      <width>175</width>
+      <height>125</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true"> background-color: qlineargradient(spread:pad, x1:0.078, y1:0.0686364,  x2:1, y2:1, stop:0.242938 rgba(26, 44, 46, 255), stop:0.655367 rgba(36, 36, 54, 255));
+  border: 2px solid #1A1A1A;
+  border-radius: 15px;
+  box-sizing: border-box;
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+  display: inline-block;
+  font-family: Roobert,-apple-system,BlinkMacSystemFont,&quot;Segoe UI&quot;,Helvetica,Arial,sans-serif,&quot;Apple Color Emoji&quot;,&quot;Segoe UI Emoji&quot;,&quot;Segoe UI Symbol&quot;;
+  font-size: 16px;
+  font-weight: 600;
+</string>
+    </property>
+    <property name="text">
+     <string>Bet 100</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="bet10Button_2">
+    <property name="geometry">
+     <rect>
+      <x>220</x>
+      <y>290</y>
+      <width>175</width>
+      <height>125</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true"> background-color: qlineargradient(spread:pad, x1:0.078, y1:0.0686364,  x2:1, y2:1, stop:0.242938 rgba(26, 44, 46, 255), stop:0.655367 rgba(36, 36, 54, 255));
+  border: 2px solid #1A1A1A;
+  border-radius: 15px;
+  box-sizing: border-box;
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+  display: inline-block;
+  font-family: Roobert,-apple-system,BlinkMacSystemFont,&quot;Segoe UI&quot;,Helvetica,Arial,sans-serif,&quot;Apple Color Emoji&quot;,&quot;Segoe UI Emoji&quot;,&quot;Segoe UI Symbol&quot;;
+  font-size: 16px;
+  font-weight: 600;
+</string>
+    </property>
+    <property name="text">
+     <string>Bet 10</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="bet500Button">
+    <property name="geometry">
+     <rect>
+      <x>330</x>
+      <y>430</y>
+      <width>175</width>
+      <height>125</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true"> background-color: qlineargradient(spread:pad, x1:0.078, y1:0.0686364,  x2:1, y2:1, stop:0.242938 rgba(26, 44, 46, 255), stop:0.655367 rgba(36, 36, 54, 255));
+  border: 2px solid #1A1A1A;
+  border-radius: 15px;
+  box-sizing: border-box;
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+  display: inline-block;
+  font-family: Roobert,-apple-system,BlinkMacSystemFont,&quot;Segoe UI&quot;,Helvetica,Arial,sans-serif,&quot;Apple Color Emoji&quot;,&quot;Segoe UI Emoji&quot;,&quot;Segoe UI Symbol&quot;;
+  font-size: 16px;
+  font-weight: 600;
+</string>
+    </property>
+    <property name="text">
+     <string>Bet 500</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="bet25Button">
+    <property name="geometry">
+     <rect>
+      <x>410</x>
+      <y>290</y>
+      <width>175</width>
+      <height>125</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true"> background-color: qlineargradient(spread:pad, x1:0.078, y1:0.0686364,  x2:1, y2:1, stop:0.242938 rgba(26, 44, 46, 255), stop:0.655367 rgba(36, 36, 54, 255));
+  border: 2px solid #1A1A1A;
+  border-radius: 15px;
+  box-sizing: border-box;
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+  display: inline-block;
+  font-family: Roobert,-apple-system,BlinkMacSystemFont,&quot;Segoe UI&quot;,Helvetica,Arial,sans-serif,&quot;Apple Color Emoji&quot;,&quot;Segoe UI Emoji&quot;,&quot;Segoe UI Symbol&quot;;
+  font-size: 16px;
+  font-weight: 600;
+</string>
+    </property>
+    <property name="text">
+     <string>Bet 25</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="bet1000Button">
+    <property name="geometry">
+     <rect>
+      <x>530</x>
+      <y>430</y>
+      <width>175</width>
+      <height>125</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true"> background-color: qlineargradient(spread:pad, x1:0.078, y1:0.0686364,  x2:1, y2:1, stop:0.242938 rgba(26, 44, 46, 255), stop:0.655367 rgba(36, 36, 54, 255));
+  border: 2px solid #1A1A1A;
+  border-radius: 15px;
+  box-sizing: border-box;
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+  display: inline-block;
+  font-family: Roobert,-apple-system,BlinkMacSystemFont,&quot;Segoe UI&quot;,Helvetica,Arial,sans-serif,&quot;Apple Color Emoji&quot;,&quot;Segoe UI Emoji&quot;,&quot;Segoe UI Symbol&quot;;
+  font-size: 16px;
+  font-weight: 600;
+</string>
+    </property>
+    <property name="text">
+     <string>Bet 1000</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="bet50Button_2">
+    <property name="geometry">
+     <rect>
+      <x>600</x>
+      <y>290</y>
+      <width>175</width>
+      <height>125</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true"> background-color: qlineargradient(spread:pad, x1:0.078, y1:0.0686364,  x2:1, y2:1, stop:0.242938 rgba(26, 44, 46, 255), stop:0.655367 rgba(36, 36, 54, 255));
+  border: 2px solid #1A1A1A;
+  border-radius: 15px;
+  box-sizing: border-box;
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+  display: inline-block;
+  font-family: Roobert,-apple-system,BlinkMacSystemFont,&quot;Segoe UI&quot;,Helvetica,Arial,sans-serif,&quot;Apple Color Emoji&quot;,&quot;Segoe UI Emoji&quot;,&quot;Segoe UI Symbol&quot;;
+  font-size: 16px;
+  font-weight: 600;
+</string>
+    </property>
+    <property name="text">
+     <string>Bet 50</string>
+    </property>
+   </widget>
+  </widget>
  </widget>
- <layoutDefault spacing="6" margin="11" />
- <pixmapfunction></pixmapfunction>
+ <layoutdefault spacing="6" margin="11"/>
  <resources/>
  <connections/>
-</UI>
+</ui>
