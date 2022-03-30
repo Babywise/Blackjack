@@ -58,7 +58,7 @@ background-color: qlineargradient(spread:pad, x1:0.533545, y1:0.136, x2:0.988636
 font: 22pt &quot;Sitka&quot;;</string>
     </property>
     <property name="text">
-     <string>Example Alert Message he he he yes yes yes</string>
+     <string>Example Alert Message</string>
     </property>
    </widget>
   </widget>
