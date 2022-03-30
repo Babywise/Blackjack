@@ -31,14 +31,14 @@ background-color: qlineargradient(spread:pad, x1:0.533545, y1:0.136, x2:0.988636
    <widget class="QLabel" name="label">
     <property name="geometry">
      <rect>
-      <x>240</x>
+      <x>190</x>
       <y>80</y>
-      <width>331</width>
+      <width>391</width>
       <height>111</height>
      </rect>
     </property>
     <property name="styleSheet">
-     <string notr="true">font: 32pt &quot;Tempus Sans ITC&quot;; color: rgb(255, 255, 255);</string>
+     <string notr="true">font: 40pt &quot;Tempus Sans ITC&quot;; color: rgb(255, 255, 255);</string>
     </property>
     <property name="text">
      <string>Elemental Casino</string>
@@ -58,7 +58,7 @@ background-color: qlineargradient(spread:pad, x1:0.533545, y1:0.136, x2:0.988636
 font: 22pt &quot;Sitka&quot;;</string>
     </property>
     <property name="text">
-     <string/>
+     <string>Example Alert Message he he he yes yes yes</string>
     </property>
    </widget>
   </widget>

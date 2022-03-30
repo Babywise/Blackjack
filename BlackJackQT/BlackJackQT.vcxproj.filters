@@ -43,14 +43,23 @@
     <ClCompile Include="AlertsQT.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="BetBoxQT.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <QtMoc Include="AlertsQT.h">
       <Filter>Header Files</Filter>
     </QtMoc>
+    <QtMoc Include="BetBoxQT.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
   </ItemGroup>
   <ItemGroup>
     <QtUic Include="AlertsQT.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="BetBoxQT.ui">
       <Filter>Form Files</Filter>
     </QtUic>
   </ItemGroup>
