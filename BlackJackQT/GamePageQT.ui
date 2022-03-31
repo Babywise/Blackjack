@@ -32,7 +32,7 @@ background-color: qlineargradient(spread:pad, x1:0.533545, y1:0.136, x2:0.988636
     <property name="geometry">
      <rect>
       <x>10</x>
-      <y>70</y>
+      <y>10</y>
       <width>191</width>
       <height>51</height>
      </rect>
@@ -57,26 +57,10 @@ background-color: qlineargradient(spread:pad, x1:0.533545, y1:0.136, x2:0.988636
      <enum>Qt::Horizontal</enum>
     </property>
    </widget>
-   <widget class="QLabel" name="label_2">
-    <property name="geometry">
-     <rect>
-      <x>10</x>
-      <y>10</y>
-      <width>391</width>
-      <height>51</height>
-     </rect>
-    </property>
-    <property name="styleSheet">
-     <string notr="true">font: 700 28pt &quot;Tempus Sans ITC&quot;; color: rgb(255, 255, 255);</string>
-    </property>
-    <property name="text">
-     <string>Elemental Casino</string>
-    </property>
-   </widget>
    <widget class="QWidget" name="player1Widget" native="true">
     <property name="geometry">
      <rect>
-      <x>10</x>
+      <x>20</x>
       <y>140</y>
       <width>431</width>
       <height>121</height>
@@ -142,7 +126,7 @@ font: 22pt &quot;Sitka&quot;;</string>
    <widget class="QWidget" name="player2Widget" native="true">
     <property name="geometry">
      <rect>
-      <x>10</x>
+      <x>20</x>
       <y>280</y>
       <width>431</width>
       <height>121</height>
@@ -208,7 +192,7 @@ font: 22pt &quot;Sitka&quot;;</string>
    <widget class="QWidget" name="player3Widget" native="true">
     <property name="geometry">
      <rect>
-      <x>10</x>
+      <x>20</x>
       <y>420</y>
       <width>431</width>
       <height>121</height>
@@ -274,7 +258,7 @@ font: 22pt &quot;Sitka&quot;;</string>
    <widget class="QWidget" name="player4Widget" native="true">
     <property name="geometry">
      <rect>
-      <x>10</x>
+      <x>20</x>
       <y>560</y>
       <width>431</width>
       <height>121</height>
@@ -459,6 +443,32 @@ color: rgb(255, 255, 255);</string>
     </property>
     <property name="text">
      <string>Stand</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton">
+    <property name="geometry">
+     <rect>
+      <x>990</x>
+      <y>10</y>
+      <width>291</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true"> background-color: qlineargradient(spread:pad, x1:0.078, y1:0.0686364,  x2:1, y2:1, stop:0.242938 rgba(26, 44, 46, 255), stop:0.655367 rgba(36, 36, 54, 255));
+  border: 2px solid #1A1A1A;
+  border-radius: 15px;
+  box-sizing: border-box;
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+  display: inline-block;
+  font-family: Roobert,-apple-system,BlinkMacSystemFont,&quot;Segoe UI&quot;,Helvetica,Arial,sans-serif,&quot;Apple Color Emoji&quot;,&quot;Segoe UI Emoji&quot;,&quot;Segoe UI Symbol&quot;;
+  font-size: 16px;
+  font-weight: 600;
+</string>
+    </property>
+    <property name="text">
+     <string>Return to Casino</string>
     </property>
    </widget>
   </widget>

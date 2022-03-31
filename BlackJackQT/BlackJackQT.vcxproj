@@ -88,18 +88,20 @@
     <QtRcc Include="BlackJackQT.qrc" />
     <QtUic Include="AlertsQT.ui" />
     <QtUic Include="BetBoxQT.ui" />
-    <QtUic Include="BlackJackQT.ui" />
-    <QtMoc Include="BlackJackQT.h" />
     <ClCompile Include="AlertsQT.cpp" />
     <ClCompile Include="BetBoxQT.cpp" />
-    <ClCompile Include="BlackJackQT.cpp" />
+    <ClCompile Include="GamePageQT.cpp" />
     <ClCompile Include="main.cpp" />
+    <QtUic Include="GamePageQT.ui" />
   </ItemGroup>
   <ItemGroup>
     <QtMoc Include="AlertsQT.h" />
   </ItemGroup>
   <ItemGroup>
     <QtMoc Include="BetBoxQT.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <QtMoc Include="GamePageQT.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Condition="Exists('$(QtMsBuild)\qt.targets')">
