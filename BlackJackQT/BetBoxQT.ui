@@ -130,7 +130,7 @@ font: 22pt &quot;Sitka&quot;;</string>
      <string>Bet 100</string>
     </property>
    </widget>
-   <widget class="QPushButton" name="bet10Button_2">
+   <widget class="QPushButton" name="bet10Button">
     <property name="geometry">
      <rect>
       <x>220</x>
@@ -234,7 +234,7 @@ font: 22pt &quot;Sitka&quot;;</string>
      <string>Bet 1000</string>
     </property>
    </widget>
-   <widget class="QPushButton" name="bet50Button_2">
+   <widget class="QPushButton" name="bet50Button">
     <property name="geometry">
      <rect>
       <x>600</x>
