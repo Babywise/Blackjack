@@ -52,6 +52,12 @@
     <ClCompile Include="BlackJackHomePage.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="LoginDialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SelectTable.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <QtMoc Include="CasinoHomePage.h">
@@ -60,12 +66,24 @@
     <QtMoc Include="BlackJackHomePage.h">
       <Filter>Header Files</Filter>
     </QtMoc>
+    <QtMoc Include="LoginDialog.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="SelectTable.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
   </ItemGroup>
   <ItemGroup>
     <QtUic Include="CasinoHomePage.ui">
       <Filter>Form Files</Filter>
     </QtUic>
     <QtUic Include="BlackJackHomePage.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="LoginDialog.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="SelectTable.ui">
       <Filter>Form Files</Filter>
     </QtUic>
   </ItemGroup>

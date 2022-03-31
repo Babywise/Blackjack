@@ -8,9 +8,7 @@ typedef class PlayerData {
 
 }PlayerData;
 
-typedef class TableInfo {
 
-}TableInfo;
 
 
 typedef class RegisterInfo {
@@ -39,7 +37,7 @@ vector<string> getListOfGameTitles();
 
 //Select Table 
 
-vector<TableInfo> getTableInfoList();
+vector<string> getListOfTableInfo();
 
 //Game Page 
 

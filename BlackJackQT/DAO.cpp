@@ -35,17 +35,18 @@ vector<string> getListOfGameTitles() {
 
     vector<string> myvector; 
    myvector.push_back("BLACKJACK");
-   myvector.push_back("CHECKERS");  
-   myvector.push_back("CHESS");
+   myvector.push_back("Coming Soon...");  
+   myvector.push_back("Coming Soon...");
+   myvector.push_back("Coming Soon...");
 
-    return myvector;
+   return myvector;
 }
 
 //Select Table 
 
-vector<TableInfo> getTableInfoList() {
-    vector<TableInfo> myvector; 
-
+vector<string> getListOfTableInfo() {
+    vector<string> myvector; 
+    myvector.push_back("Table 1: 1/4");
 
 
     return myvector; 

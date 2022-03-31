@@ -6,7 +6,7 @@
 #include "DAO.h"
 #include <QVector>
 #include "helperfunctions.h"
-#include "BlackJackHomePage.h"
+#include "SelectTable.h"
 
 class CasinoHomePage : public QWidget
 {

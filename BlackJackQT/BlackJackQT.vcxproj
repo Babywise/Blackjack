@@ -85,6 +85,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="SelectTable.cpp" />
     <QtRcc Include="BlackJackQT.qrc" />
     <QtUic Include="BlackJackHomePage.ui" />
     <QtUic Include="BlackJackQT.ui" />
@@ -94,13 +95,18 @@
     <ClCompile Include="CasinoHomePage.cpp" />
     <ClCompile Include="DAO.cpp" />
     <ClCompile Include="helperfunctions.cpp" />
+    <ClCompile Include="LoginDialog.cpp" />
     <ClCompile Include="main.cpp" />
     <QtUic Include="CasinoHomePage.ui" />
+    <QtUic Include="LoginDialog.ui" />
+    <QtUic Include="SelectTable.ui" />
   </ItemGroup>
   <ItemGroup>
     <QtMoc Include="CasinoHomePage.h" />
   </ItemGroup>
   <ItemGroup>
+    <QtMoc Include="SelectTable.h" />
+    <QtMoc Include="LoginDialog.h" />
     <QtMoc Include="BlackJackHomePage.h" />
     <ClInclude Include="DAO.h" />
     <ClInclude Include="helperfunctions.h" />

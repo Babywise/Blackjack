@@ -8,7 +8,6 @@ void setLabelTextBox(QLabel* l, const QString a, QColor background, QColor foreg
     l->setAutoFillBackground(true);
     p.setColor(l->backgroundRole(), background);
     p.setColor(l->foregroundRole(), foreground);
-
     l->setPalette(p);
     QFont f;
     f.setPointSize(fontSize);

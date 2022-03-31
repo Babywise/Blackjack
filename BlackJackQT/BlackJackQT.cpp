@@ -5,3 +5,5 @@ BlackJackQT::BlackJackQT(QWidget *parent)
 {
     ui.setupUi(this);
 }
+
+

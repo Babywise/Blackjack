@@ -40,8 +40,8 @@ void CasinoHomePage::on_listOfGames_currentItemChanged()
 
 void CasinoHomePage::on_clickToPlay_clicked() {
     
-    BlackJackHomePage* BJHP = new BlackJackHomePage();
-    BJHP->show();
+    SelectTable* st = new SelectTable();
+    st->show();
     hide();
 
 }
