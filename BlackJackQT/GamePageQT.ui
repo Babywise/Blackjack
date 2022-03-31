@@ -31,8 +31,8 @@ background-color: qlineargradient(spread:pad, x1:0.533545, y1:0.136, x2:0.988636
    <widget class="QLabel" name="label">
     <property name="geometry">
      <rect>
-      <x>10</x>
-      <y>10</y>
+      <x>20</x>
+      <y>20</y>
       <width>191</width>
       <height>51</height>
      </rect>
@@ -48,7 +48,7 @@ background-color: qlineargradient(spread:pad, x1:0.533545, y1:0.136, x2:0.988636
     <property name="geometry">
      <rect>
       <x>0</x>
-      <y>50</y>
+      <y>70</y>
       <width>1361</width>
       <height>21</height>
      </rect>
@@ -451,7 +451,7 @@ color: rgb(255, 255, 255);</string>
       <x>990</x>
       <y>10</y>
       <width>291</width>
-      <height>41</height>
+      <height>61</height>
      </rect>
     </property>
     <property name="styleSheet">
