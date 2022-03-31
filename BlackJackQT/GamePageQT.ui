@@ -31,9 +31,9 @@ background-color: qlineargradient(spread:pad, x1:0.533545, y1:0.136, x2:0.988636
    <widget class="QLabel" name="label">
     <property name="geometry">
      <rect>
-      <x>20</x>
+      <x>60</x>
       <y>20</y>
-      <width>191</width>
+      <width>321</width>
       <height>51</height>
      </rect>
     </property>
@@ -41,14 +41,14 @@ background-color: qlineargradient(spread:pad, x1:0.533545, y1:0.136, x2:0.988636
      <string notr="true">font: 36pt &quot;Tempus Sans ITC&quot;; color: rgb(255, 255, 255);</string>
     </property>
     <property name="text">
-     <string>BlackJack</string>
+     <string>This is BlackJack</string>
     </property>
    </widget>
    <widget class="Line" name="line">
     <property name="geometry">
      <rect>
       <x>0</x>
-      <y>70</y>
+      <y>80</y>
       <width>1361</width>
       <height>21</height>
      </rect>
