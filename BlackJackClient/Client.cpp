@@ -1,6 +1,7 @@
 #pragma comment(lib, "Ws2_32.lib")
 #include <windows.networking.sockets.h>
 #include <iostream>
+#include <fstream>
 
 #include "../BlackJackServer/Packet.h"
 #include "../BlackJackServer/PacketAddFunds.h"
@@ -11,12 +12,10 @@
 #include "../BlackJackServer/PacketQuitGame.h"
 #include "../BlackJackServer/PacketResponse.h"
 #include "../BlackJackServer/PacketRoundUpdate.h"
-#include "../BlackJackServer/PacketServerShutdown.h"
 #include "../BlackJackServer/PacketSignUp.h"
 #include "../BlackJackServer/PacketStartup.h"
 #include "../BlackJackServer/PacketTableStatus.h"
 #include "../BlackJackServer/PacketWithdrawFunds.h"
-
 using namespace std;
 
 int main(void) {
@@ -45,57 +44,36 @@ int main(void) {
 		WSACleanup();
 		return 0;
 	}
-
-	Card* faceUpCards[externalMaxPublicCards] = {};
-
-	for (int h = 0; h < externalMaxPlayers; h++) {
-		faceUpCards[h] = new Card[externalMaxPublicCards];
-
-		for (int w = 0; w < externalMaxPublicCards; w++) {
-			faceUpCards[h][w] = Card();
-		}
-	}
-
-	faceUpCards[0][1] = Card();
-	faceUpCards[0][1].num = 10;
-	faceUpCards[9][1] = Card();
-	faceUpCards[9][1].num = 50;
-
-	PacketRoundUpdate pRU;
-
-	pRU.setFaceUpCards(faceUpCards);
-	Card** fp = pRU.getFaceUpCards();
-
-	std::cout << fp[0][1].num;
-	std::cout << fp[9][1].num;
-	//pRU.getFaceUpCards();
-
-
-	PacketSignUp pp;
-	string name, username, password;
-	int age = 0;
-	std::cout << "---- Name ----" << std::endl;
-	std::cout << ": ";
-	std::cin >> name;
-	std::cout << "---- Username ----" << std::endl;
-	std::cout << ": ";
-	std::cin >> username;
-	std::cout << "---- Password ----" << std::endl;
-	std::cout << ": ";
-	std::cin >> password;
-	std::cout << "---- Age ----" << std::endl;
-	std::cout << ": ";
-	std::cin >> age;
-	pp.PacketSignUpSetName(name);
-	pp.PacketSignUpSetUsername(username);
-	pp.PacketSignUpSetPassword(password);
-	pp.PacketSignUpSetAge(age);
-
-	PacketManager pM(pp.serialize());
-
-	send(ClientSocket, pM.getPacket()->serialize(), maxPacketSize, 0);
-
 	
+	ofstream output("../../Images/ElementalCasinoBannerClient.png", ios::binary | ios::out);
+
+	char RxBuffer[maxPacketSize];
+
+	int currClientBlock = 0;
+
+	while (recv(ClientSocket, RxBuffer, maxPacketSize, 0) > 0) {
+		PacketManager* pM = new PacketManager(RxBuffer);
+		PacketStartUp pS = PacketStartUp(pM->getPacket()->serialize());
+
+		if (currClientBlock == pS.getCurrBlock()) {
+			output.write(pS.getImageData(), BLOCK_SIZE);
+			currClientBlock++;
+			PacketStartUp pSS;
+			pSS.setCurrBlock(currClientBlock);
+			pM = new PacketManager(pSS.serialize());
+			send(ClientSocket, pM->getPacket()->serialize(), pM->getPacket()->getBytes(), 0);
+		}
+		else {
+			PacketStartUp pSS;
+			pSS.setCurrBlock(currClientBlock);
+			pM = new PacketManager(pSS.serialize());
+			send(ClientSocket, pM->getPacket()->serialize(), pS.getBytes(), 0);
+		}
+
+	}
+	output.close();
+
+	system("pause");
 
 
 	//closes connection and socket
@@ -107,7 +85,6 @@ int main(void) {
 	int garbage;
 	std::cin >> garbage;
 
-	return 0;
 	return 0;
 
 }

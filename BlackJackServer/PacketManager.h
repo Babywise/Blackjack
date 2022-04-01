@@ -8,7 +8,6 @@
 #include "PacketQuitGame.h"
 #include "PacketResponse.h"
 #include "PacketRoundUpdate.h"
-#include "PacketServerShutdown.h"
 #include "PacketSignUp.h"
 #include "PacketStartup.h"
 #include "PacketTableStatus.h"
@@ -61,8 +60,6 @@ public:
 			break;
 		case PacketType::packetQuitGame:
 			break;
-		case PacketType::packetServerShutdown:
-			break;
 		case PacketType::packetLogin:
 			break;
 		case PacketType::packetSignup:
@@ -109,9 +106,6 @@ private:
 			break;
 		case PacketType::packetQuitGame:
 			return new PacketQuitGame(buffer);
-			break;
-		case PacketType::packetServerShutdown:
-			return new PacketServerShutdown(buffer);
 			break;
 		case PacketType::packetLogin:
 			return new PacketLogin(buffer);

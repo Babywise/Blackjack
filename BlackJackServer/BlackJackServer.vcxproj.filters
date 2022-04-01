@@ -45,9 +45,6 @@
     <ClInclude Include="PacketRoundUpdate.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="PacketServerShutdown.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="PacketSignUp.h">
       <Filter>Header Files</Filter>
     </ClInclude>

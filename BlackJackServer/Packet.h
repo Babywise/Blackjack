@@ -1,6 +1,5 @@
 #pragma once
 
-#include "PotentialIncludes.h"
 
 #include <iostream>
 
@@ -17,13 +16,13 @@ enum class PacketType {
 	packetWithdrawFunds,
 	packetPlayerTurn,
 	packetQuitGame,
-	packetServerShutdown,
+	//packetServerShutdown,
 	packetLogin,
 	packetSignup
 };
 
 const unsigned int maxPacketSize = 5000;
-const unsigned int emptyPacketSize = 16;
+const unsigned int emptyPacketSize = 18;
 
 class Packet {
 protected:
@@ -34,6 +33,7 @@ protected:
 		unsigned int Bytes;				//4 Bytes -> max = 4,294,967,295
 		unsigned Fin : 16;				//2 byte  -> max = 255
 		unsigned Ack : 16;				//2 byte  -> max = 255
+		unsigned Seq : 16;				//2 bytes
 	} Head;
 
 	char* pSerialBuff;					//4 Bytes
@@ -41,8 +41,8 @@ protected:
 
 public:
 	// creating
-	Packet() : pSerialBuff(nullptr), buffer(nullptr) { 
-		Head.Source = 0, Head.Destination = 0, Head.pType = PacketType::packetInvalid, Head.Bytes = 0, Head.Fin = 0, Head.Ack = 0; 
+	Packet() : pSerialBuff(nullptr), buffer(nullptr) {
+		Head.Source = 0, Head.Destination = 0, Head.pType = PacketType::packetInvalid, Head.Bytes = 0, Head.Fin = 0, Head.Ack = 0, Head.Seq = 0;
 	};
 
 	// receiving
@@ -109,6 +109,21 @@ public:
 	char* getBuffer() {
 		return this->buffer;
 	}
+
+	void setSequence(unsigned int sequence) {
+		Head.Seq = sequence;
+	}
+
+	void incrementSequence() {
+		Head.Seq++;
+	}
+	void decrementSequence() {
+		Head.Seq--;
+	}
+	int getSequence() {
+		return Head.Seq;
+	}
+
 
 	virtual char* serialize() {
 

@@ -5,7 +5,7 @@
 class PacketWithdrawFunds : public Packet {
 
 	struct Body {
-		Account* acc;
+		account* acc;
 		long int cardNumber;
 		int amountToRemove;
 	} Body;
@@ -27,11 +27,11 @@ public:
 
 	}
 
-	void setAccount(Account* acc) {
+	void setAccount(account* acc) {
 		this->Body.acc = acc;
 	}
 
-	Account* getAccount() {
+	account* getAccount() {
 		return this->Body.acc;
 	}
 

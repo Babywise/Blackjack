@@ -11,4 +11,16 @@ public:
 
 	Card() { num = 0; };
 };
-class Account {};
+class account { 
+	string n;
+	int a;
+	int b;
+	string n2;
+public: 
+	account(string n, int a , int b , string n2) {
+		this->n = n;
+		this->a = a;
+		this->b = b;
+		this->n2 = n2;
+	}
+};

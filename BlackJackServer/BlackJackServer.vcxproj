@@ -28,7 +28,6 @@
     <ClInclude Include="PacketQuitGame.h" />
     <ClInclude Include="PacketResponse.h" />
     <ClInclude Include="PacketRoundUpdate.h" />
-    <ClInclude Include="PacketServerShutdown.h" />
     <ClInclude Include="PacketSignUp.h" />
     <ClInclude Include="PacketStartup.h" />
     <ClInclude Include="PacketTableStatus.h" />

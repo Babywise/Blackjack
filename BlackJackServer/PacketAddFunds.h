@@ -1,19 +1,20 @@
 #pragma once
 #include "Packet.h"
-
+//#include "../../BlackJackClient/BlackJackClient/Account.h"
+#include "PotentialIncludes.h"
 class PacketAddFunds : public Packet {
 
 	struct Body {
-		Account* acc;
-		long cardNumber;
-		int amountToAdd;
+		account acc = account("", 0, 0, "");
+		long long cardNumber;
+		float amountToAdd;
 	} Body;
 
 public:
 	// creating
-	PacketAddFunds() : Packet() { 
+	PacketAddFunds() : Packet() {
 		Head.Source = 0, Head.Destination = 0, Head.Bytes = sizeof(Body) + emptyPacketSize, Head.Fin = 0, Head.Ack = 0, Head.pType = PacketType::packetAddFunds,
-		Body.acc = NULL, Body.cardNumber = 0, Body.amountToAdd = 0;
+			Body.cardNumber = 0, Body.amountToAdd = 0;
 	};
 
 	// receiving
@@ -26,27 +27,27 @@ public:
 
 	}
 
-	void setAccount(Account* acc) {
+	void setAccount(account acc) {
 		this->Body.acc = acc;
 	}
 
-	Account* getAccount() {
+	account getAccount() {
 		return this->Body.acc;
 	}
 
-	void setCardNumber(long cardNumber) {
+	void setCardNumber(long long cardNumber) {
 		this->Body.cardNumber = cardNumber;
 	}
 
-	long getCardNumber() {
+	long long getCardNumber() {
 		return this->Body.cardNumber;
 	}
 
-	void setAmountToAdd(long amountToAdd) {
+	void setAmountToAdd(float amountToAdd) {
 		this->Body.amountToAdd = amountToAdd;
 	}
 
-	long getAmountToAdd() {
+	float getAmountToAdd() {
 		return this->Body.amountToAdd;
 	}
 

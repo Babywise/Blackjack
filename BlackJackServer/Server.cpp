@@ -1,6 +1,7 @@
 #pragma comment(lib, "Ws2_32.lib")
 #include <windows.networking.sockets.h>
 #include <iostream>
+#include <fstream>
 
 #include "Packet.h"
 #include "PacketAddFunds.h"
@@ -11,7 +12,6 @@
 #include "PacketQuitGame.h"
 #include "PacketResponse.h"
 #include "PacketRoundUpdate.h"
-#include "PacketServerShutdown.h"
 #include "PacketSignUp.h"
 #include "PacketStartup.h"
 #include "PacketTableStatus.h"
@@ -65,28 +65,54 @@ int main(void) {
 
 	cout << "Connection Established" << endl;
 
-	char RxBuffer[maxPacketSize] = {};
-	recv(ConnectionSocket, RxBuffer, maxPacketSize, 0);
+	ifstream input("../../Images/ElementalCasinoBanner.png", ios::binary | ios::in);
 
-	PacketManager pM(RxBuffer);
+	char RxBuffer[maxPacketSize];
+	char TxBuffer[maxPacketSize];
 
-	Packet* p = pM.getPacket();
-
-	
-	PacketLogin* pL;
-	PacketSignUp* pS;
-
-	switch (pM.getPacketType())
-	{
-	case PacketType::packetLogin:
-		pL = new PacketLogin(RxBuffer);
-		break;
-	case PacketType::packetSignup:
-		pS = new PacketSignUp(RxBuffer);
-		break;
-	default:
-		break;
+	int numBlocks = 0;
+	while (input.read(RxBuffer, BLOCK_SIZE)) {
+		if (!input.eof()) {
+			numBlocks++;
+		}
 	}
+
+	input.close();
+
+	PacketManager* pM;
+	PacketStartUp* pS = new PacketStartUp();
+	PacketStartUp* pSS;
+	pS->setNumBlocks(numBlocks);
+
+	int currBlock = 0;
+	int currClientBlock = 0;
+	input.open("../../Images/ElementalCasinoBanner.png", ios::binary | ios::in);
+	while (input.read(RxBuffer, BLOCK_SIZE)) {
+		if (!input.eof()) {
+
+			pS->setCurrBlock(currBlock);
+			pS->setImageData(RxBuffer);
+
+			pM = new PacketManager(pS->serialize());
+
+			while (currClientBlock != pS->getCurrBlock() + 1) {
+				int sentBytes = send(ConnectionSocket, pM->getPacket()->serialize(), pS->getBytes(), 0);
+				//std::cout << "Current Block :" << currBlock;
+				if (sentBytes == pS->getBytes()) {
+					recv(ConnectionSocket, RxBuffer, maxPacketSize, 0);
+					pM = new PacketManager(RxBuffer);
+					pSS = new PacketStartUp(pM->getPacket()->serialize());
+					currClientBlock = pSS->getCurrBlock();
+
+				}
+			}
+			currBlock++;
+		}
+	}
+
+	input.close();
+
+
 
 	closesocket(ConnectionSocket);	//closes incoming socket
 	closesocket(ServerSocket);	    //closes server socket	
