@@ -86,13 +86,31 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <QtRcc Include="BlackJackQT.qrc" />
+  </ItemGroup>
+  <ItemGroup>
     <QtUic Include="AlertsQT.ui" />
     <QtUic Include="BetBoxQT.ui" />
+    <QtUic Include="GamePageQT.ui" />
+    <QtUic Include="BlackJackHomePage.ui" />
+    <QtUic Include="CasinoHomePage.ui" />
+    <QtUic Include="LoginDialog.ui" />
+    <QtUic Include="SelectTable.ui" />
+  </ItemGroup>
+  <ItemGroup>
     <ClCompile Include="AlertsQT.cpp" />
     <ClCompile Include="BetBoxQT.cpp" />
     <ClCompile Include="GamePageQT.cpp" />
     <ClCompile Include="main.cpp" />
-    <QtUic Include="GamePageQT.ui" />
+    <ClCompile Include="BlackJackHomePage.cpp" />
+    <ClCompile Include="CasinoHomePage.cpp" />
+    <ClCompile Include="DAO.cpp" />
+    <ClCompile Include="helperfunctions.cpp" />
+    <ClCompile Include="LoginDialog.cpp" />
+    <ClCompile Include="SelectTable.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="DAO.h" />
+    <ClInclude Include="helperfunctions.h" />
   </ItemGroup>
   <ItemGroup>
     <QtMoc Include="AlertsQT.h" />
@@ -102,6 +120,18 @@
   </ItemGroup>
   <ItemGroup>
     <QtMoc Include="GamePageQT.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <QtMoc Include="CasinoHomePage.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <QtMoc Include="SelectTable.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <QtMoc Include="LoginDialog.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <QtMoc Include="BlackJackHomePage.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Condition="Exists('$(QtMsBuild)\qt.targets')">
