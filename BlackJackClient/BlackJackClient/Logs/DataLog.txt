@@ -559,3 +559,26 @@ Sequence :61 2022/3/1 4:0:1EST
 Sequence :62 2022/3/1 4:0:1EST
 Sequence :61 2022/3/1 4:0:1EST
 Exiting thread.. 2022/3/1 4:0:2EST
+Random Seeded... 2022/3/1 16:51:39EST
+Creating Games...  2022/3/1 16:51:39EST
+Game %d created... 
+01 2022/3/1 16:51:39EST
+Game %d created... 
+11 2022/3/1 16:51:39EST
+Game %d created... 
+21 2022/3/1 16:51:39EST
+Game %d created... 
+31 2022/3/1 16:51:39EST
+Game %d created... 
+41 2022/3/1 16:51:39EST
+Game %d created... 
+51 2022/3/1 16:51:39EST
+Game %d created... 
+61 2022/3/1 16:51:39EST
+Game %d created... 
+71 2022/3/1 16:51:39EST
+Cleaning WSA...  2022/3/1 16:51:39EST
+Config the local address...  2022/3/1 16:51:39EST
+Creating Socket...  2022/3/1 16:51:39EST
+Start Listening...  2022/3/1 16:51:39EST
+Waiting for connection...  2022/3/1 16:51:39EST

@@ -1,9 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.30907.101
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32319.34
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "BlackJackServer", "BlackJackServer\BlackJackServer.vcxproj", "{62B85F26-691A-4CFA-85C1-7EB55B35EB43}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "BlackJackClient", "BlackJackServer\BlackJackServer.vcxproj", "{62B85F26-691A-4CFA-85C1-7EB55B35EB43}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "BlackJackServer.Tests", "BlackJackServer.Tests\BlackJackServer.Tests.vcxproj", "{7BFD184D-DF3D-43AE-B2E5-D9892780978E}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "BlackJackServer", "..\BlackJackClient\BlackJackClient\BlackJackClient.vcxproj", "{286D1391-53C0-4AAC-98A2-2D7043A8B2A1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +25,22 @@ Global
 		{62B85F26-691A-4CFA-85C1-7EB55B35EB43}.Release|x64.Build.0 = Release|x64
 		{62B85F26-691A-4CFA-85C1-7EB55B35EB43}.Release|x86.ActiveCfg = Release|Win32
 		{62B85F26-691A-4CFA-85C1-7EB55B35EB43}.Release|x86.Build.0 = Release|Win32
+		{7BFD184D-DF3D-43AE-B2E5-D9892780978E}.Debug|x64.ActiveCfg = Debug|x64
+		{7BFD184D-DF3D-43AE-B2E5-D9892780978E}.Debug|x64.Build.0 = Debug|x64
+		{7BFD184D-DF3D-43AE-B2E5-D9892780978E}.Debug|x86.ActiveCfg = Debug|Win32
+		{7BFD184D-DF3D-43AE-B2E5-D9892780978E}.Debug|x86.Build.0 = Debug|Win32
+		{7BFD184D-DF3D-43AE-B2E5-D9892780978E}.Release|x64.ActiveCfg = Release|x64
+		{7BFD184D-DF3D-43AE-B2E5-D9892780978E}.Release|x64.Build.0 = Release|x64
+		{7BFD184D-DF3D-43AE-B2E5-D9892780978E}.Release|x86.ActiveCfg = Release|Win32
+		{7BFD184D-DF3D-43AE-B2E5-D9892780978E}.Release|x86.Build.0 = Release|Win32
+		{286D1391-53C0-4AAC-98A2-2D7043A8B2A1}.Debug|x64.ActiveCfg = Debug|x64
+		{286D1391-53C0-4AAC-98A2-2D7043A8B2A1}.Debug|x64.Build.0 = Debug|x64
+		{286D1391-53C0-4AAC-98A2-2D7043A8B2A1}.Debug|x86.ActiveCfg = Debug|Win32
+		{286D1391-53C0-4AAC-98A2-2D7043A8B2A1}.Debug|x86.Build.0 = Debug|Win32
+		{286D1391-53C0-4AAC-98A2-2D7043A8B2A1}.Release|x64.ActiveCfg = Release|x64
+		{286D1391-53C0-4AAC-98A2-2D7043A8B2A1}.Release|x64.Build.0 = Release|x64
+		{286D1391-53C0-4AAC-98A2-2D7043A8B2A1}.Release|x86.ActiveCfg = Release|Win32
+		{286D1391-53C0-4AAC-98A2-2D7043A8B2A1}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

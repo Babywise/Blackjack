@@ -1,4 +1,2 @@
-﻿  Source.cpp
-C:\Users\Islam\Desktop\Dumb Project - Copy Printing WOrking NO imaages\BlackJackClient\BlackJackClient\BlackJack.h(54,19): warning C4305: 'initializing': truncation from 'double' to 'float'
-C:\Users\Islam\Desktop\Dumb Project - Copy Printing WOrking NO imaages\BlackJackClient\BlackJackClient\Source.cpp(9,12): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
-  BlackJackClient.vcxproj -> C:\Users\Islam\Desktop\Dumb Project - Copy Printing WOrking NO imaages\BlackJackClient\x64\Debug\BlackJackServer.exe
+﻿  LINK : C:\Users\Islam\Desktop\Git BlackJack\BlackJackClient\x64\Debug\BlackJackServer.exe not found or not built by the last incremental link; performing full link
+  BlackJackClient.vcxproj -> C:\Users\Islam\Desktop\Git BlackJack\BlackJackClient\x64\Debug\BlackJackServer.exe
