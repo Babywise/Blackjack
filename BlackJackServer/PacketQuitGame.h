@@ -28,7 +28,7 @@ public:
 		this->Body.status = status;
 	}
 
-	int setStatus() {
+	int getStatus() {
 		return this->Body.status;
 	}
 
