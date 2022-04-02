@@ -1,7 +1,7 @@
 #include "Menu.h"
 
 void printMenuUsers() {
-	system("cls");
+	//system("cls");
 	std::cout << "1. Join Table\n";
 	std::cout << "2. Add Funds\n";
 	std::cout << "3. Cash out\n";

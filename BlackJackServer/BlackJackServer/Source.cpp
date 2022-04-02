@@ -77,7 +77,13 @@ int main(void) {
 	//tableStatusPacket* pkt = new tableStatusPacket();
 
 	while (true) {
+
+		system("cls");
+
+		cout << "Player Funds : " << acc->getFunds() << endl;
+
 		printMenuUsers(); // user gets menu to add or remove funds, logout, or join a table
+		
 		//cin >> choice;
 		choice = getMenuOption();
 		//std::cout << "Current Funds" << acc->getFunds() << std::endl;
@@ -141,7 +147,7 @@ int main(void) {
 						// getting data????
 						// sending ack that we got ??? data
 						//std::cout << "Sending join table";
-						alertMessage("Sending join table");
+						//alertMessage("Sending join table");
 						sendClientPacket(peerSocket, *pM);
 						sequence = pM->getPacket()->getSequence();
 						char RxBuffer[maxPacketSize] = {};
@@ -187,13 +193,21 @@ int main(void) {
 
 								pT->getPublicCards(publicCard);
 
+								
+
+								
+
+								std::cout << std::endl;
+
+								//pM = new PacketManager(pRu->serialize());
+								sendServerPacket(peerSocket, *pM); // serversendpacket send send recv
+
 								for (int i = 0; i < pT->getMaxPublicCards(); i++) {
 									if (publicCard[i]->getValue() > 1 && publicCard[i]->getValue() <= 14) {
 										publicCard[i]->print();
 									}
 								}
-								//pM = new PacketManager(pRu->serialize());
-								sendServerPacket(peerSocket, *pM); // serversendpacket send send recv
+
 								sequence = pM->getPacket()->getSequence();
 								break;
 							}

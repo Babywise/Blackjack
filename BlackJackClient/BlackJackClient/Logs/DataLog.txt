@@ -582,3 +582,1840 @@ Config the local address...  2022/3/1 16:51:39EST
 Creating Socket...  2022/3/1 16:51:39EST
 Start Listening...  2022/3/1 16:51:39EST
 Waiting for connection...  2022/3/1 16:51:39EST
+Random Seeded... 2022/3/2 3:50:58EST
+Creating Games...  2022/3/2 3:50:58EST
+Game %d created... 
+01 2022/3/2 3:50:58EST
+Game %d created... 
+11 2022/3/2 3:50:58EST
+Game %d created... 
+21 2022/3/2 3:50:58EST
+Game %d created... 
+31 2022/3/2 3:50:58EST
+Game %d created... 
+41 2022/3/2 3:50:58EST
+Game %d created... 
+51 2022/3/2 3:50:58EST
+Game %d created... 
+61 2022/3/2 3:50:58EST
+Game %d created... 
+71 2022/3/2 3:50:58EST
+Cleaning WSA...  2022/3/2 3:50:58EST
+Config the local address...  2022/3/2 3:50:58EST
+Creating Socket...  2022/3/2 3:50:58EST
+Start Listening...  2022/3/2 3:50:58EST
+Waiting for connection...  2022/3/2 3:50:58EST
+Recieved Request 0 2022/3/2 3:51:5EST
+Sending Ack: 1 2022/3/2 3:51:5EST
+Sending data: 2 2022/3/2 3:51:5EST
+Recieve Ack 3 2022/3/2 3:51:5EST
+promise set(Fin) 2022/3/2 3:51:6EST
+Exiting thread.. 2022/3/2 3:51:6EST
+Exiting thread.. 2022/3/2 3:51:6EST
+Recieved Request 4 2022/3/2 3:54:22EST
+Sending Ack: 5 2022/3/2 3:54:22EST
+Sending data: 6 2022/3/2 3:54:22EST
+Recieve Ack 7 2022/3/2 3:54:22EST
+promise set(Fin) 2022/3/2 3:54:23EST
+Exiting thread.. 2022/3/2 3:54:23EST
+Exiting thread.. 2022/3/2 3:54:23EST
+Recieved Request 8 2022/3/2 3:54:46EST
+Sending Ack: 9 2022/3/2 3:54:46EST
+Sending data: 10 2022/3/2 3:54:46EST
+Recieve Ack 11 2022/3/2 3:54:46EST
+Exiting thread.. 2022/3/2 3:54:47EST
+Exiting thread.. 2022/3/2 3:54:47EST
+promise set(Fin) 2022/3/2 3:54:47EST
+Recieved Request 12 2022/3/2 3:54:49EST
+Sending Ack: 13 2022/3/2 3:54:49EST
+Sending data: 14 2022/3/2 3:54:49EST
+Recieve Ack 15 2022/3/2 3:54:49EST
+Exiting thread.. 2022/3/2 3:54:50EST
+Exiting thread.. 2022/3/2 3:54:50EST
+promise set(Fin) 2022/3/2 3:54:50EST
+: 2022/3/2 3:54:50EST
+romise set (Fin)
+ 2022/3/2 3:54:50EST
+Sequence :15 2022/3/2 3:54:50EST
+Sequence :15 2022/3/2 3:54:50EST
+Sequence :15 2022/3/2 3:54:50EST
+Sequence :15 2022/3/2 3:54:50EST
+Sequence :15 2022/3/2 3:54:50EST
+Sequence :15 2022/3/2 3:54:50EST
+Sequence :15 2022/3/2 3:54:50EST
+Sequence :15 2022/3/2 3:54:50EST
+Sequence :15 2022/3/2 3:54:50EST
+Sequence :15 2022/3/2 3:54:50EST
+Sequence :15 2022/3/2 3:54:50EST
+Sequence :15 2022/3/2 3:54:50EST
+Sequence :15 2022/3/2 3:54:50EST
+Sequence :15 2022/3/2 3:54:50EST
+Sequence :15 2022/3/2 3:54:50EST
+Sequence :15 2022/3/2 3:54:50EST
+Sequence :15 2022/3/2 3:54:50EST
+Sequence :15 2022/3/2 3:54:50EST
+Sequence :15 2022/3/2 3:54:50EST
+Exiting thread.. 2022/3/2 3:54:51EST
+Sequence :18 2022/3/2 3:55:31EST
+Sequence :17 2022/3/2 3:55:31EST
+promise set 2022/3/2 3:55:31EST
+nd Ack 2022/3/2 3:55:31EST
+ 2022/3/2 3:55:31EST
+Exiting thread.. 2022/3/2 3:55:32EST
+ 2022/3/2 3:55:32EST
+se set (Fin)
+ 2022/3/2 3:55:32EST
+Sequence :17 2022/3/2 3:55:32EST
+Sequence :18 2022/3/2 3:55:32EST
+Sequence :17 2022/3/2 3:55:32EST
+Sequence :18 2022/3/2 3:55:32EST
+Sequence :17 2022/3/2 3:55:32EST
+Sequence :18 2022/3/2 3:55:32EST
+Sequence :17 2022/3/2 3:55:32EST
+Sequence :17 2022/3/2 3:55:32EST
+Sequence :18 2022/3/2 3:55:32EST
+Sequence :18 2022/3/2 3:55:32EST
+Sequence :17 2022/3/2 3:55:32EST
+Sequence :18 2022/3/2 3:55:32EST
+Sequence :17 2022/3/2 3:55:32EST
+Sequence :18 2022/3/2 3:55:32EST
+Sequence :17 2022/3/2 3:55:32EST
+Sequence :18 2022/3/2 3:55:32EST
+Sequence :17 2022/3/2 3:55:32EST
+Sequence :18 2022/3/2 3:55:32EST
+Sequence :17 2022/3/2 3:55:32EST
+Sequence :18 2022/3/2 3:55:32EST
+Sequence :17 2022/3/2 3:55:32EST
+Sequence :18 2022/3/2 3:55:32EST
+Sequence :18 2022/3/2 3:55:32EST
+Sequence :18 2022/3/2 3:55:32EST
+Sequence :18 2022/3/2 3:55:32EST
+Sequence :18 2022/3/2 3:55:32EST
+Sequence :18 2022/3/2 3:55:32EST
+Sequence :18 2022/3/2 3:55:32EST
+Sequence :18 2022/3/2 3:55:32EST
+Sequence :22 2022/3/2 3:55:32EST
+Sequence :21 2022/3/2 3:55:32EST
+promise set 2022/3/2 3:55:32EST
+Exiting thread.. 2022/3/2 3:55:32EST
+ck 2022/3/2 3:55:32EST
+ 2022/3/2 3:55:32EST
+Exiting thread.. 2022/3/2 3:55:33EST
+Sequence : 2022/3/2 3:55:36EST
+et (Fin)
+ 2022/3/2 3:55:36EST
+Sequence :22 2022/3/2 3:55:36EST
+Sequence :21 2022/3/2 3:55:36EST
+Sequence :22 2022/3/2 3:55:36EST
+Sequence :21 2022/3/2 3:55:36EST
+Sequence :22 2022/3/2 3:55:36EST
+Sequence :21 2022/3/2 3:55:36EST
+Sequence :22 2022/3/2 3:55:36EST
+Sequence :21 2022/3/2 3:55:36EST
+Sequence :22 2022/3/2 3:55:36EST
+Sequence :21 2022/3/2 3:55:36EST
+Sequence :22 2022/3/2 3:55:36EST
+Sequence :21 2022/3/2 3:55:36EST
+Sequence :22 2022/3/2 3:55:36EST
+Sequence :21 2022/3/2 3:55:36EST
+Sequence :22 2022/3/2 3:55:36EST
+Sequence :21 2022/3/2 3:55:36EST
+Sequence :21 2022/3/2 3:55:36EST
+Sequence :22 2022/3/2 3:55:36EST
+Sequence :21 2022/3/2 3:55:36EST
+Sequence :22 2022/3/2 3:55:36EST
+Sequence :22 2022/3/2 3:55:36EST
+Sequence :22 2022/3/2 3:55:36EST
+Sequence :22 2022/3/2 3:55:36EST
+Sequence :22 2022/3/2 3:55:36EST
+Sequence :22 2022/3/2 3:55:36EST
+Sequence :22 2022/3/2 3:55:36EST
+Sequence :22 2022/3/2 3:55:36EST
+Sequence :22 2022/3/2 3:55:36EST
+Sequence :25 2022/3/2 3:55:37EST
+promise set 2022/3/2 3:55:37EST
+Exiting thread.. 2022/3/2 3:55:37EST
+ 2022/3/2 3:55:37EST
+es 2022/3/2 3:55:37EST
+Exiting thread.. 2022/3/2 3:55:37EST
+ence : 2022/3/2 3:55:40EST
+Fin)
+ 2022/3/2 3:55:40EST
+Sequence :25 2022/3/2 3:55:40EST
+Sequence :26 2022/3/2 3:55:40EST
+Sequence :26 2022/3/2 3:55:40EST
+Sequence :25 2022/3/2 3:55:40EST
+Sequence :26 2022/3/2 3:55:40EST
+Sequence :25 2022/3/2 3:55:40EST
+Sequence :25 2022/3/2 3:55:40EST
+Sequence :26 2022/3/2 3:55:40EST
+Sequence :26 2022/3/2 3:55:40EST
+Sequence :25 2022/3/2 3:55:40EST
+Sequence :26 2022/3/2 3:55:40EST
+Sequence :25 2022/3/2 3:55:40EST
+Sequence :25 2022/3/2 3:55:40EST
+Sequence :26 2022/3/2 3:55:41EST
+Sequence :26 2022/3/2 3:55:41EST
+Sequence :25 2022/3/2 3:55:41EST
+Sequence :26 2022/3/2 3:55:41EST
+Sequence :25 2022/3/2 3:55:41EST
+Sequence :25 2022/3/2 3:55:41EST
+Sequence :26 2022/3/2 3:55:41EST
+Sequence :26 2022/3/2 3:55:41EST
+Sequence :26 2022/3/2 3:55:41EST
+Sequence :26 2022/3/2 3:55:41EST
+Sequence :26 2022/3/2 3:55:41EST
+Sequence :26 2022/3/2 3:55:41EST
+Sequence :26 2022/3/2 3:55:41EST
+Sequence :26 2022/3/2 3:55:41EST
+Sequence :26 2022/3/2 3:55:41EST
+Sequence :26 2022/3/2 3:55:41EST
+Sequence :29 2022/3/2 3:55:41EST
+promise set 2022/3/2 3:55:41EST
+Exiting thread.. 2022/3/2 3:55:41EST
+ 2022/3/2 3:55:41EST
+ 2022/3/2 3:55:41EST
+Exiting thread.. 2022/3/2 3:55:42EST
+ : 2022/3/2 3:55:45EST
+
+ 2022/3/2 3:55:45EST
+Sequence :30 2022/3/2 3:55:45EST
+Sequence :29 2022/3/2 3:55:45EST
+Sequence :30 2022/3/2 3:55:45EST
+Sequence :29 2022/3/2 3:55:45EST
+Sequence :30 2022/3/2 3:55:45EST
+Sequence :29 2022/3/2 3:55:45EST
+Sequence :30 2022/3/2 3:55:45EST
+Sequence :29 2022/3/2 3:55:45EST
+Sequence :30 2022/3/2 3:55:45EST
+Sequence :29 2022/3/2 3:55:45EST
+Sequence :29 2022/3/2 3:55:45EST
+Sequence :30 2022/3/2 3:55:45EST
+Sequence :29 2022/3/2 3:55:45EST
+Sequence :30 2022/3/2 3:55:45EST
+Sequence :29 2022/3/2 3:55:45EST
+Sequence :30 2022/3/2 3:55:45EST
+Sequence :29 2022/3/2 3:55:45EST
+Sequence :30 2022/3/2 3:55:45EST
+Sequence :29 2022/3/2 3:55:45EST
+Sequence :30 2022/3/2 3:55:45EST
+Sequence :30 2022/3/2 3:55:45EST
+Sequence :30 2022/3/2 3:55:45EST
+Sequence :30 2022/3/2 3:55:45EST
+Sequence :30 2022/3/2 3:55:45EST
+Sequence :30 2022/3/2 3:55:45EST
+Sequence :30 2022/3/2 3:55:45EST
+Sequence :30 2022/3/2 3:55:45EST
+Sequence :30 2022/3/2 3:55:45EST
+Sequence :30 2022/3/2 3:55:45EST
+Sequence :34 2022/3/2 3:55:45EST
+Sequence :33 2022/3/2 3:55:45EST
+promise set 2022/3/2 3:55:45EST
+Exiting thread.. 2022/3/2 3:55:45EST
+ 2022/3/2 3:55:45EST
+eads 2022/3/2 3:55:46EST
+Exiting thread.. 2022/3/2 3:55:46EST
+ 2022/3/2 3:55:49EST
+ 2022/3/2 3:55:49EST
+Sequence :33 2022/3/2 3:55:49EST
+Sequence :34 2022/3/2 3:55:49EST
+Sequence :34 2022/3/2 3:55:49EST
+Sequence :33 2022/3/2 3:55:49EST
+Sequence :34 2022/3/2 3:55:49EST
+Sequence :33 2022/3/2 3:55:49EST
+Sequence :34 2022/3/2 3:55:49EST
+Sequence :33 2022/3/2 3:55:49EST
+Sequence :34 2022/3/2 3:55:49EST
+Sequence :33 2022/3/2 3:55:49EST
+Sequence :34 2022/3/2 3:55:49EST
+Sequence :33 2022/3/2 3:55:49EST
+Sequence :34 2022/3/2 3:55:49EST
+Sequence :33 2022/3/2 3:55:49EST
+Sequence :34 2022/3/2 3:55:49EST
+Sequence :33 2022/3/2 3:55:49EST
+Sequence :34 2022/3/2 3:55:49EST
+Sequence :33 2022/3/2 3:55:49EST
+Sequence :34 2022/3/2 3:55:49EST
+Sequence :33 2022/3/2 3:55:49EST
+Sequence :34 2022/3/2 3:55:49EST
+Sequence :34 2022/3/2 3:55:49EST
+Sequence :34 2022/3/2 3:55:49EST
+Sequence :34 2022/3/2 3:55:49EST
+Sequence :34 2022/3/2 3:55:49EST
+Sequence :34 2022/3/2 3:55:49EST
+Sequence :34 2022/3/2 3:55:49EST
+Sequence :34 2022/3/2 3:55:49EST
+Exiting thread.. 2022/3/2 3:55:50EST
+Sequence :38 2022/3/2 3:56:13EST
+Sequence :37 2022/3/2 3:56:13EST
+promise set 2022/3/2 3:56:13EST
+ 2022/3/2 3:56:13EST
+ 2022/3/2 3:56:13EST
+Exiting thread.. 2022/3/2 3:56:14EST
+promise set 2022/3/2 3:56:14EST
+romise set(Fin) 2022/3/2 3:56:14EST
+Sequence :38 2022/3/2 3:56:14EST
+Sequence :37 2022/3/2 3:56:14EST
+Sequence :38 2022/3/2 3:56:14EST
+Sequence :37 2022/3/2 3:56:14EST
+Sequence :38 2022/3/2 3:56:14EST
+Sequence :37 2022/3/2 3:56:14EST
+Sequence :37 2022/3/2 3:56:14EST
+Sequence :38 2022/3/2 3:56:14EST
+Sequence :37 2022/3/2 3:56:14EST
+Sequence :38 2022/3/2 3:56:14EST
+Sequence :37 2022/3/2 3:56:14EST
+Sequence :38 2022/3/2 3:56:14EST
+Sequence :37 2022/3/2 3:56:14EST
+Sequence :38 2022/3/2 3:56:14EST
+Sequence :37 2022/3/2 3:56:14EST
+Sequence :38 2022/3/2 3:56:14EST
+Sequence :37 2022/3/2 3:56:14EST
+Sequence :38 2022/3/2 3:56:14EST
+Sequence :37 2022/3/2 3:56:14EST
+Sequence :38 2022/3/2 3:56:14EST
+Sequence :38 2022/3/2 3:56:14EST
+Sequence :38 2022/3/2 3:56:14EST
+Sequence :38 2022/3/2 3:56:14EST
+Sequence :38 2022/3/2 3:56:14EST
+Sequence :38 2022/3/2 3:56:14EST
+Sequence :38 2022/3/2 3:56:14EST
+Sequence :38 2022/3/2 3:56:14EST
+Sequence :38 2022/3/2 3:56:14EST
+Sequence :42 2022/3/2 3:56:15EST
+Sequence :41 2022/3/2 3:56:15EST
+promise set 2022/3/2 3:56:15EST
+Exiting thread.. 2022/3/2 3:56:15EST
+mes 2022/3/2 3:56:15EST
+ 2022/3/2 3:56:15EST
+Exiting thread.. 2022/3/2 3:56:15EST
+ise set 2022/3/2 3:56:18EST
+se set(Fin) 2022/3/2 3:56:18EST
+Sequence :41 2022/3/2 3:56:18EST
+Sequence :41 2022/3/2 3:56:18EST
+Sequence :42 2022/3/2 3:56:18EST
+Sequence :41 2022/3/2 3:56:18EST
+Sequence :42 2022/3/2 3:56:18EST
+Sequence :41 2022/3/2 3:56:18EST
+Sequence :42 2022/3/2 3:56:18EST
+Sequence :41 2022/3/2 3:56:18EST
+Sequence :42 2022/3/2 3:56:18EST
+Sequence :41 2022/3/2 3:56:18EST
+Sequence :42 2022/3/2 3:56:18EST
+Sequence :41 2022/3/2 3:56:18EST
+Sequence :42 2022/3/2 3:56:18EST
+Sequence :41 2022/3/2 3:56:18EST
+Sequence :42 2022/3/2 3:56:19EST
+Sequence :41 2022/3/2 3:56:19EST
+Sequence :42 2022/3/2 3:56:19EST
+Sequence :41 2022/3/2 3:56:19EST
+Sequence :42 2022/3/2 3:56:19EST
+Sequence :41 2022/3/2 3:56:19EST
+Sequence :42 2022/3/2 3:56:19EST
+Sequence :42 2022/3/2 3:56:19EST
+Sequence :42 2022/3/2 3:56:19EST
+Sequence :42 2022/3/2 3:56:19EST
+Sequence :42 2022/3/2 3:56:19EST
+Sequence :42 2022/3/2 3:56:19EST
+Sequence :42 2022/3/2 3:56:19EST
+Sequence :42 2022/3/2 3:56:19EST
+Sequence :42 2022/3/2 3:56:19EST
+Sequence :45 2022/3/2 3:56:19EST
+promise set 2022/3/2 3:56:19EST
+Exiting thread.. 2022/3/2 3:56:19EST
+ 2022/3/2 3:56:19EST
+ 2022/3/2 3:56:19EST
+Exiting thread.. 2022/3/2 3:56:20EST
+set 2022/3/2 3:56:23EST
+et(Fin) 2022/3/2 3:56:23EST
+Sequence :46 2022/3/2 3:56:23EST
+Sequence :45 2022/3/2 3:56:23EST
+Sequence :45 2022/3/2 3:56:23EST
+Sequence :46 2022/3/2 3:56:23EST
+Sequence :46 2022/3/2 3:56:23EST
+Sequence :45 2022/3/2 3:56:23EST
+Sequence :45 2022/3/2 3:56:23EST
+Sequence :46 2022/3/2 3:56:23EST
+Sequence :46 2022/3/2 3:56:23EST
+Sequence :45 2022/3/2 3:56:23EST
+Sequence :46 2022/3/2 3:56:23EST
+Sequence :45 2022/3/2 3:56:23EST
+Sequence :46 2022/3/2 3:56:23EST
+Sequence :45 2022/3/2 3:56:23EST
+Sequence :46 2022/3/2 3:56:23EST
+Sequence :45 2022/3/2 3:56:23EST
+Sequence :46 2022/3/2 3:56:23EST
+Sequence :45 2022/3/2 3:56:23EST
+Sequence :46 2022/3/2 3:56:23EST
+Sequence :45 2022/3/2 3:56:23EST
+Sequence :46 2022/3/2 3:56:23EST
+Sequence :46 2022/3/2 3:56:23EST
+Sequence :46 2022/3/2 3:56:23EST
+Sequence :46 2022/3/2 3:56:23EST
+Sequence :46 2022/3/2 3:56:23EST
+Sequence :46 2022/3/2 3:56:23EST
+Sequence :46 2022/3/2 3:56:23EST
+Sequence :46 2022/3/2 3:56:23EST
+Sequence :46 2022/3/2 3:56:23EST
+Sequence :50 2022/3/2 3:56:24EST
+Sequence :49 2022/3/2 3:56:24EST
+promise set 2022/3/2 3:56:24EST
+Exiting thread.. 2022/3/2 3:56:24EST
+reads 2022/3/2 3:56:24EST
+æö 2022/3/2 3:56:24EST
+Exiting thread.. 2022/3/2 3:56:24EST
+ 2022/3/2 3:56:27EST
+in) 2022/3/2 3:56:27EST
+Sequence :49 2022/3/2 3:56:27EST
+Sequence :49 2022/3/2 3:56:27EST
+Sequence :50 2022/3/2 3:56:27EST
+Sequence :50 2022/3/2 3:56:27EST
+Sequence :49 2022/3/2 3:56:27EST
+Sequence :49 2022/3/2 3:56:27EST
+Sequence :50 2022/3/2 3:56:27EST
+Sequence :49 2022/3/2 3:56:27EST
+Sequence :50 2022/3/2 3:56:27EST
+Sequence :49 2022/3/2 3:56:27EST
+Sequence :50 2022/3/2 3:56:27EST
+Sequence :50 2022/3/2 3:56:27EST
+Sequence :49 2022/3/2 3:56:27EST
+Sequence :50 2022/3/2 3:56:27EST
+Sequence :49 2022/3/2 3:56:27EST
+Sequence :50 2022/3/2 3:56:27EST
+Sequence :49 2022/3/2 3:56:27EST
+Sequence :50 2022/3/2 3:56:27EST
+Sequence :49 2022/3/2 3:56:27EST
+Sequence :49 2022/3/2 3:56:27EST
+Sequence :50 2022/3/2 3:56:27EST
+Sequence :50 2022/3/2 3:56:27EST
+Sequence :50 2022/3/2 3:56:27EST
+Sequence :50 2022/3/2 3:56:27EST
+Sequence :50 2022/3/2 3:56:27EST
+Sequence :50 2022/3/2 3:56:27EST
+Sequence :50 2022/3/2 3:56:27EST
+Sequence :50 2022/3/2 3:56:27EST
+Sequence :50 2022/3/2 3:56:27EST
+Sequence :54 2022/3/2 3:56:28EST
+Sequence :53 2022/3/2 3:56:28EST
+promise set 2022/3/2 3:56:28EST
+Exiting thread.. 2022/3/2 3:56:28EST
+s 2022/3/2 3:56:28EST
+ 2022/3/2 3:56:28EST
+Exiting thread.. 2022/3/2 3:56:29EST
+Recieve data 2022/3/2 3:56:32EST
+ 2022/3/2 3:56:32EST
+Sequence :54 2022/3/2 3:56:32EST
+Sequence :53 2022/3/2 3:56:32EST
+Sequence :54 2022/3/2 3:56:32EST
+Sequence :53 2022/3/2 3:56:32EST
+Sequence :53 2022/3/2 3:56:32EST
+Sequence :54 2022/3/2 3:56:32EST
+Sequence :54 2022/3/2 3:56:32EST
+Sequence :53 2022/3/2 3:56:32EST
+Sequence :54 2022/3/2 3:56:32EST
+Sequence :53 2022/3/2 3:56:32EST
+Sequence :54 2022/3/2 3:56:32EST
+Sequence :53 2022/3/2 3:56:32EST
+Sequence :54 2022/3/2 3:56:32EST
+Sequence :53 2022/3/2 3:56:32EST
+Sequence :54 2022/3/2 3:56:32EST
+Sequence :53 2022/3/2 3:56:32EST
+Sequence :53 2022/3/2 3:56:32EST
+Sequence :54 2022/3/2 3:56:32EST
+Sequence :53 2022/3/2 3:56:32EST
+Sequence :54 2022/3/2 3:56:32EST
+Sequence :54 2022/3/2 3:56:32EST
+Sequence :54 2022/3/2 3:56:32EST
+Sequence :54 2022/3/2 3:56:32EST
+Sequence :54 2022/3/2 3:56:32EST
+Sequence :54 2022/3/2 3:56:32EST
+Sequence :54 2022/3/2 3:56:32EST
+Sequence :54 2022/3/2 3:56:32EST
+Sequence :54 2022/3/2 3:56:32EST
+Sequence :57 2022/3/2 3:56:32EST
+promise set 2022/3/2 3:56:32EST
+Exiting thread.. 2022/3/2 3:56:32EST
+ 2022/3/2 3:56:32EST
+ 2022/3/2 3:56:32EST
+Exiting thread.. 2022/3/2 3:56:33EST
+eve data 2022/3/2 3:56:36EST
+ 2022/3/2 3:56:36EST
+Sequence :58 2022/3/2 3:56:36EST
+Sequence :57 2022/3/2 3:56:36EST
+Sequence :58 2022/3/2 3:56:36EST
+Sequence :57 2022/3/2 3:56:36EST
+Sequence :58 2022/3/2 3:56:36EST
+Sequence :57 2022/3/2 3:56:36EST
+Sequence :57 2022/3/2 3:56:36EST
+Sequence :58 2022/3/2 3:56:36EST
+Sequence :57 2022/3/2 3:56:36EST
+Sequence :58 2022/3/2 3:56:36EST
+Sequence :57 2022/3/2 3:56:36EST
+Sequence :58 2022/3/2 3:56:36EST
+Sequence :57 2022/3/2 3:56:36EST
+Sequence :58 2022/3/2 3:56:36EST
+Sequence :57 2022/3/2 3:56:36EST
+Sequence :58 2022/3/2 3:56:36EST
+Sequence :57 2022/3/2 3:56:36EST
+Sequence :58 2022/3/2 3:56:36EST
+Sequence :58 2022/3/2 3:56:36EST
+Sequence :57 2022/3/2 3:56:36EST
+Sequence :58 2022/3/2 3:56:36EST
+Sequence :58 2022/3/2 3:56:36EST
+Sequence :58 2022/3/2 3:56:36EST
+Sequence :58 2022/3/2 3:56:36EST
+Sequence :58 2022/3/2 3:56:36EST
+Sequence :58 2022/3/2 3:56:36EST
+Sequence :58 2022/3/2 3:56:36EST
+Sequence :58 2022/3/2 3:56:36EST
+Sequence :58 2022/3/2 3:56:36EST
+Exiting thread.. 2022/3/2 3:56:37EST
+Sequence :62 2022/3/2 3:57:6EST
+Sequence :61 2022/3/2 3:57:6EST
+promise set 2022/3/2 3:57:6EST
+ 2022/3/2 3:57:6EST
+ 2022/3/2 3:57:6EST
+Exiting thread.. 2022/3/2 3:57:7EST
+data 2022/3/2 3:57:7EST
+ending request : 2022/3/2 3:57:7EST
+Sequence :61 2022/3/2 3:57:7EST
+Sequence :61 2022/3/2 3:57:7EST
+Sequence :62 2022/3/2 3:57:7EST
+Sequence :62 2022/3/2 3:57:7EST
+Sequence :61 2022/3/2 3:57:7EST
+Sequence :62 2022/3/2 3:57:7EST
+Sequence :61 2022/3/2 3:57:7EST
+Sequence :62 2022/3/2 3:57:7EST
+Sequence :61 2022/3/2 3:57:7EST
+Sequence :62 2022/3/2 3:57:7EST
+Sequence :61 2022/3/2 3:57:7EST
+Sequence :61 2022/3/2 3:57:7EST
+Sequence :62 2022/3/2 3:57:7EST
+Sequence :62 2022/3/2 3:57:7EST
+Sequence :61 2022/3/2 3:57:7EST
+Sequence :61 2022/3/2 3:57:7EST
+Sequence :62 2022/3/2 3:57:7EST
+Sequence :62 2022/3/2 3:57:7EST
+Sequence :61 2022/3/2 3:57:7EST
+Sequence :62 2022/3/2 3:57:7EST
+Sequence :61 2022/3/2 3:57:7EST
+Sequence :62 2022/3/2 3:57:7EST
+Sequence :62 2022/3/2 3:57:7EST
+Sequence :62 2022/3/2 3:57:7EST
+Sequence :62 2022/3/2 3:57:7EST
+Sequence :62 2022/3/2 3:57:7EST
+Sequence :62 2022/3/2 3:57:7EST
+Sequence :62 2022/3/2 3:57:7EST
+Sequence :62 2022/3/2 3:57:7EST
+Exiting thread.. 2022/3/2 3:57:8EST
+Sequence :65 2022/3/2 3:57:24EST
+promise set 2022/3/2 3:57:24EST
+æö 2022/3/2 3:57:24EST
+æö 2022/3/2 3:57:24EST
+Exiting thread.. 2022/3/2 3:57:25EST
+ 2022/3/2 3:57:25EST
+ng request : 2022/3/2 3:57:25EST
+Sequence :65 2022/3/2 3:57:25EST
+Sequence :66 2022/3/2 3:57:25EST
+Sequence :65 2022/3/2 3:57:25EST
+Sequence :66 2022/3/2 3:57:25EST
+Sequence :65 2022/3/2 3:57:25EST
+Sequence :66 2022/3/2 3:57:25EST
+Sequence :65 2022/3/2 3:57:25EST
+Sequence :66 2022/3/2 3:57:25EST
+Sequence :65 2022/3/2 3:57:25EST
+Sequence :66 2022/3/2 3:57:25EST
+Sequence :65 2022/3/2 3:57:25EST
+Sequence :66 2022/3/2 3:57:25EST
+Sequence :65 2022/3/2 3:57:25EST
+Sequence :66 2022/3/2 3:57:25EST
+Sequence :65 2022/3/2 3:57:25EST
+Sequence :66 2022/3/2 3:57:25EST
+Sequence :65 2022/3/2 3:57:25EST
+Sequence :66 2022/3/2 3:57:25EST
+Sequence :65 2022/3/2 3:57:25EST
+Sequence :66 2022/3/2 3:57:25EST
+Sequence :66 2022/3/2 3:57:25EST
+Sequence :66 2022/3/2 3:57:25EST
+Sequence :66 2022/3/2 3:57:25EST
+Sequence :66 2022/3/2 3:57:25EST
+Sequence :66 2022/3/2 3:57:25EST
+Sequence :66 2022/3/2 3:57:25EST
+Sequence :66 2022/3/2 3:57:25EST
+Sequence :66 2022/3/2 3:57:25EST
+Sequence :66 2022/3/2 3:57:25EST
+Sequence :70 2022/3/2 3:57:26EST
+Sequence :69 2022/3/2 3:57:26EST
+promise set 2022/3/2 3:57:26EST
+Exiting thread.. 2022/3/2 3:57:26EST
+ 2022/3/2 3:57:26EST
+ 2022/3/2 3:57:26EST
+Exiting thread.. 2022/3/2 3:57:26EST
+Send Ack 2022/3/2 3:57:29EST
+equest : 2022/3/2 3:57:29EST
+Sequence :70 2022/3/2 3:57:29EST
+Sequence :69 2022/3/2 3:57:29EST
+Sequence :70 2022/3/2 3:57:29EST
+Sequence :69 2022/3/2 3:57:29EST
+Sequence :70 2022/3/2 3:57:29EST
+Sequence :69 2022/3/2 3:57:29EST
+Sequence :70 2022/3/2 3:57:29EST
+Sequence :69 2022/3/2 3:57:29EST
+Sequence :70 2022/3/2 3:57:29EST
+Sequence :69 2022/3/2 3:57:29EST
+Sequence :70 2022/3/2 3:57:29EST
+Sequence :69 2022/3/2 3:57:29EST
+Sequence :70 2022/3/2 3:57:29EST
+Sequence :69 2022/3/2 3:57:29EST
+Sequence :70 2022/3/2 3:57:29EST
+Sequence :69 2022/3/2 3:57:29EST
+Sequence :70 2022/3/2 3:57:29EST
+Sequence :69 2022/3/2 3:57:29EST
+Sequence :70 2022/3/2 3:57:29EST
+Sequence :69 2022/3/2 3:57:29EST
+Sequence :70 2022/3/2 3:57:29EST
+Sequence :70 2022/3/2 3:57:29EST
+Sequence :70 2022/3/2 3:57:29EST
+Sequence :70 2022/3/2 3:57:29EST
+Sequence :70 2022/3/2 3:57:29EST
+Sequence :70 2022/3/2 3:57:29EST
+Sequence :70 2022/3/2 3:57:29EST
+Sequence :70 2022/3/2 3:57:29EST
+Sequence :74 2022/3/2 3:57:30EST
+Sequence :73 2022/3/2 3:57:30EST
+promise set 2022/3/2 3:57:30EST
+Exiting thread.. 2022/3/2 3:57:30EST
+ 2022/3/2 3:57:30EST
+ 2022/3/2 3:57:30EST
+Exiting thread.. 2022/3/2 3:57:31EST
+ Ack 2022/3/2 3:57:34EST
+st : 2022/3/2 3:57:34EST
+Sequence :73 2022/3/2 3:57:34EST
+Sequence :73 2022/3/2 3:57:34EST
+Sequence :74 2022/3/2 3:57:34EST
+Sequence :73 2022/3/2 3:57:34EST
+Sequence :74 2022/3/2 3:57:34EST
+Sequence :73 2022/3/2 3:57:34EST
+Sequence :74 2022/3/2 3:57:34EST
+Sequence :73 2022/3/2 3:57:34EST
+Sequence :74 2022/3/2 3:57:34EST
+Sequence :73 2022/3/2 3:57:34EST
+Sequence :74 2022/3/2 3:57:34EST
+Sequence :73 2022/3/2 3:57:34EST
+Sequence :74 2022/3/2 3:57:34EST
+Sequence :73 2022/3/2 3:57:34EST
+Sequence :74 2022/3/2 3:57:34EST
+Sequence :73 2022/3/2 3:57:34EST
+Sequence :74 2022/3/2 3:57:34EST
+Sequence :73 2022/3/2 3:57:34EST
+Sequence :74 2022/3/2 3:57:34EST
+Sequence :73 2022/3/2 3:57:34EST
+Sequence :74 2022/3/2 3:57:34EST
+Sequence :74 2022/3/2 3:57:34EST
+Sequence :74 2022/3/2 3:57:34EST
+Sequence :74 2022/3/2 3:57:34EST
+Sequence :74 2022/3/2 3:57:34EST
+Sequence :74 2022/3/2 3:57:34EST
+Sequence :74 2022/3/2 3:57:34EST
+Sequence :74 2022/3/2 3:57:34EST
+Sequence :74 2022/3/2 3:57:34EST
+Sequence :78 2022/3/2 3:57:34EST
+Sequence :77 2022/3/2 3:57:34EST
+promise set 2022/3/2 3:57:34EST
+Exiting thread.. 2022/3/2 3:57:34EST
+ 2022/3/2 3:57:34EST
+ 2022/3/2 3:57:34EST
+Exiting thread.. 2022/3/2 3:57:35EST
+ 2022/3/2 3:57:38EST
+ 2022/3/2 3:57:38EST
+Sequence :77 2022/3/2 3:57:38EST
+Sequence :77 2022/3/2 3:57:38EST
+Sequence :78 2022/3/2 3:57:38EST
+Sequence :78 2022/3/2 3:57:38EST
+Sequence :77 2022/3/2 3:57:38EST
+Sequence :78 2022/3/2 3:57:38EST
+Sequence :77 2022/3/2 3:57:38EST
+Sequence :78 2022/3/2 3:57:38EST
+Sequence :77 2022/3/2 3:57:38EST
+Sequence :78 2022/3/2 3:57:38EST
+Sequence :77 2022/3/2 3:57:38EST
+Sequence :78 2022/3/2 3:57:38EST
+Sequence :77 2022/3/2 3:57:38EST
+Sequence :78 2022/3/2 3:57:38EST
+Sequence :77 2022/3/2 3:57:38EST
+Sequence :77 2022/3/2 3:57:38EST
+Sequence :78 2022/3/2 3:57:38EST
+Sequence :77 2022/3/2 3:57:38EST
+Sequence :78 2022/3/2 3:57:38EST
+Sequence :77 2022/3/2 3:57:38EST
+Sequence :78 2022/3/2 3:57:38EST
+Sequence :78 2022/3/2 3:57:38EST
+Sequence :78 2022/3/2 3:57:38EST
+Sequence :78 2022/3/2 3:57:38EST
+Sequence :78 2022/3/2 3:57:38EST
+Sequence :78 2022/3/2 3:57:38EST
+Sequence :78 2022/3/2 3:57:38EST
+Sequence :78 2022/3/2 3:57:38EST
+Sequence :78 2022/3/2 3:57:38EST
+Sequence :81 2022/3/2 3:57:39EST
+promise set 2022/3/2 3:57:39EST
+Exiting thread.. 2022/3/2 3:57:39EST
+æö 2022/3/2 3:57:39EST
+ 2022/3/2 3:57:39EST
+Exiting thread.. 2022/3/2 3:57:40EST
+ 2022/3/2 3:57:43EST
+ 2022/3/2 3:57:43EST
+Sequence :82 2022/3/2 3:57:43EST
+Sequence :81 2022/3/2 3:57:43EST
+Sequence :82 2022/3/2 3:57:43EST
+Sequence :81 2022/3/2 3:57:43EST
+Sequence :81 2022/3/2 3:57:43EST
+Sequence :82 2022/3/2 3:57:43EST
+Sequence :81 2022/3/2 3:57:43EST
+Sequence :82 2022/3/2 3:57:43EST
+Sequence :82 2022/3/2 3:57:43EST
+Sequence :81 2022/3/2 3:57:43EST
+Sequence :82 2022/3/2 3:57:43EST
+Sequence :81 2022/3/2 3:57:43EST
+Sequence :81 2022/3/2 3:57:43EST
+Sequence :82 2022/3/2 3:57:43EST
+Sequence :82 2022/3/2 3:57:43EST
+Sequence :81 2022/3/2 3:57:43EST
+Sequence :82 2022/3/2 3:57:43EST
+Sequence :81 2022/3/2 3:57:43EST
+Sequence :82 2022/3/2 3:57:43EST
+Sequence :81 2022/3/2 3:57:43EST
+Sequence :82 2022/3/2 3:57:43EST
+Sequence :82 2022/3/2 3:57:43EST
+Sequence :82 2022/3/2 3:57:43EST
+Sequence :82 2022/3/2 3:57:43EST
+Sequence :82 2022/3/2 3:57:43EST
+Sequence :82 2022/3/2 3:57:43EST
+Sequence :82 2022/3/2 3:57:43EST
+Sequence :82 2022/3/2 3:57:43EST
+Sequence :82 2022/3/2 3:57:43EST
+Exiting thread.. 2022/3/2 3:57:44EST
+Sequence :85 2022/3/2 3:57:53EST
+promise set 2022/3/2 3:57:53EST
+ 2022/3/2 3:57:53EST
+ 2022/3/2 3:57:53EST
+Exiting thread.. 2022/3/2 3:57:54EST
+ 2022/3/2 3:57:54EST
+equence : 2022/3/2 3:57:54EST
+Sequence :85 2022/3/2 3:57:54EST
+Sequence :86 2022/3/2 3:57:54EST
+Sequence :85 2022/3/2 3:57:54EST
+Sequence :86 2022/3/2 3:57:54EST
+Sequence :85 2022/3/2 3:57:54EST
+Sequence :86 2022/3/2 3:57:54EST
+Sequence :85 2022/3/2 3:57:54EST
+Sequence :86 2022/3/2 3:57:54EST
+Sequence :85 2022/3/2 3:57:54EST
+Sequence :86 2022/3/2 3:57:54EST
+Sequence :85 2022/3/2 3:57:54EST
+Sequence :86 2022/3/2 3:57:54EST
+Sequence :85 2022/3/2 3:57:54EST
+Sequence :86 2022/3/2 3:57:54EST
+Sequence :85 2022/3/2 3:57:54EST
+Sequence :86 2022/3/2 3:57:54EST
+Sequence :85 2022/3/2 3:57:54EST
+Sequence :86 2022/3/2 3:57:54EST
+Sequence :85 2022/3/2 3:57:54EST
+Sequence :86 2022/3/2 3:57:54EST
+Sequence :86 2022/3/2 3:57:54EST
+Sequence :86 2022/3/2 3:57:54EST
+Sequence :86 2022/3/2 3:57:54EST
+Sequence :86 2022/3/2 3:57:54EST
+Sequence :86 2022/3/2 3:57:54EST
+Sequence :86 2022/3/2 3:57:54EST
+Sequence :86 2022/3/2 3:57:54EST
+Sequence :86 2022/3/2 3:57:54EST
+Sequence :86 2022/3/2 3:57:54EST
+Sequence :90 2022/3/2 3:57:55EST
+Sequence :89 2022/3/2 3:57:55EST
+promise set 2022/3/2 3:57:55EST
+Exiting thread.. 2022/3/2 3:57:55EST
+ 2022/3/2 3:57:55EST
+ 2022/3/2 3:57:55EST
+Exiting thread.. 2022/3/2 3:57:56EST
+Recieved Request 92 2022/3/2 3:57:56EST
+Sending Ack: 93 2022/3/2 3:57:56EST
+Sending data: 94 2022/3/2 3:57:56EST
+Recieve Ack 95 2022/3/2 3:57:56EST
+promise set(Fin) 2022/3/2 3:57:56EST
+Exiting thread.. 2022/3/2 3:57:56EST
+Exiting thread.. 2022/3/2 3:57:56EST
+Waiting for connection...  2022/3/2 3:58:3EST
+Random Seeded... 2022/3/2 4:4:14EST
+Creating Games...  2022/3/2 4:4:14EST
+Game %d created... 
+01 2022/3/2 4:4:14EST
+Game %d created... 
+11 2022/3/2 4:4:14EST
+Game %d created... 
+21 2022/3/2 4:4:14EST
+Game %d created... 
+31 2022/3/2 4:4:14EST
+Game %d created... 
+41 2022/3/2 4:4:14EST
+Game %d created... 
+51 2022/3/2 4:4:14EST
+Game %d created... 
+61 2022/3/2 4:4:14EST
+Game %d created... 
+71 2022/3/2 4:4:14EST
+Cleaning WSA...  2022/3/2 4:4:14EST
+Config the local address...  2022/3/2 4:4:14EST
+Creating Socket...  2022/3/2 4:4:14EST
+Start Listening...  2022/3/2 4:4:14EST
+Waiting for connection...  2022/3/2 4:4:14EST
+Recieved Request 0 2022/3/2 4:4:20EST
+Sending Ack: 1 2022/3/2 4:4:20EST
+Sending data: 2 2022/3/2 4:4:20EST
+Recieve Ack 3 2022/3/2 4:4:20EST
+promise set(Fin) 2022/3/2 4:4:21EST
+Exiting thread.. 2022/3/2 4:4:21EST
+Exiting thread.. 2022/3/2 4:4:21EST
+Recieved Request 4 2022/3/2 4:4:26EST
+Sending Ack: 5 2022/3/2 4:4:26EST
+Sending data: 6 2022/3/2 4:4:26EST
+Recieve Ack 7 2022/3/2 4:4:26EST
+Exiting thread.. 2022/3/2 4:4:27EST
+promise set(Fin) 2022/3/2 4:4:27EST
+Recieved Request 8 2022/3/2 4:4:29EST
+Sending Ack: 9 2022/3/2 4:4:29EST
+Sending data: 10 2022/3/2 4:4:29EST
+Recieve Ack 11 2022/3/2 4:4:29EST
+promise set(Fin) 2022/3/2 4:4:30EST
+Exiting thread.. 2022/3/2 4:4:30EST
+Exiting thread.. 2022/3/2 4:4:30EST
+est : 2022/3/2 4:4:30EST
+ 2022/3/2 4:4:30EST
+Sequence :11 2022/3/2 4:4:30EST
+Sequence :11 2022/3/2 4:4:30EST
+Sequence :11 2022/3/2 4:4:30EST
+Sequence :11 2022/3/2 4:4:30EST
+Sequence :11 2022/3/2 4:4:30EST
+Sequence :11 2022/3/2 4:4:30EST
+Sequence :11 2022/3/2 4:4:30EST
+Sequence :11 2022/3/2 4:4:30EST
+Sequence :11 2022/3/2 4:4:30EST
+Sequence :11 2022/3/2 4:4:30EST
+Sequence :11 2022/3/2 4:4:30EST
+Sequence :11 2022/3/2 4:4:30EST
+Sequence :11 2022/3/2 4:4:30EST
+Sequence :11 2022/3/2 4:4:30EST
+Sequence :11 2022/3/2 4:4:30EST
+Sequence :11 2022/3/2 4:4:30EST
+Sequence :11 2022/3/2 4:4:30EST
+Sequence :11 2022/3/2 4:4:30EST
+Sequence :11 2022/3/2 4:4:30EST
+Exiting thread.. 2022/3/2 4:4:30EST
+Sequence :14 2022/3/2 4:4:42EST
+Sequence :13 2022/3/2 4:4:42EST
+promise set 2022/3/2 4:4:42EST
+ 2022/3/2 4:4:42EST
+ 2022/3/2 4:4:42EST
+Exiting thread.. 2022/3/2 4:4:43EST
+: 2022/3/2 4:4:43EST
+romise set (Fin)
+ 2022/3/2 4:4:43EST
+Sequence :13 2022/3/2 4:4:43EST
+Sequence :13 2022/3/2 4:4:43EST
+Sequence :14 2022/3/2 4:4:43EST
+Sequence :14 2022/3/2 4:4:43EST
+Sequence :13 2022/3/2 4:4:43EST
+Sequence :14 2022/3/2 4:4:43EST
+Sequence :13 2022/3/2 4:4:43EST
+Sequence :14 2022/3/2 4:4:43EST
+Sequence :13 2022/3/2 4:4:43EST
+Sequence :14 2022/3/2 4:4:43EST
+Sequence :13 2022/3/2 4:4:43EST
+Sequence :14 2022/3/2 4:4:43EST
+Sequence :13 2022/3/2 4:4:43EST
+Sequence :14 2022/3/2 4:4:43EST
+Sequence :13 2022/3/2 4:4:43EST
+Sequence :14 2022/3/2 4:4:43EST
+Sequence :13 2022/3/2 4:4:43EST
+Sequence :14 2022/3/2 4:4:43EST
+Sequence :13 2022/3/2 4:4:43EST
+Sequence :14 2022/3/2 4:4:43EST
+Sequence :13 2022/3/2 4:4:43EST
+Sequence :14 2022/3/2 4:4:43EST
+Sequence :14 2022/3/2 4:4:43EST
+Sequence :14 2022/3/2 4:4:43EST
+Sequence :14 2022/3/2 4:4:43EST
+Sequence :14 2022/3/2 4:4:43EST
+Sequence :14 2022/3/2 4:4:43EST
+Sequence :14 2022/3/2 4:4:43EST
+Sequence :14 2022/3/2 4:4:43EST
+Sequence :18 2022/3/2 4:4:44EST
+Sequence :17 2022/3/2 4:4:44EST
+promise set 2022/3/2 4:4:44EST
+Exiting thread.. 2022/3/2 4:4:44EST
+nd Ack 2022/3/2 4:4:44EST
+ 2022/3/2 4:4:44EST
+Exiting thread.. 2022/3/2 4:4:44EST
+ 2022/3/2 4:4:47EST
+se set (Fin)
+ 2022/3/2 4:4:47EST
+Sequence :17 2022/3/2 4:4:47EST
+Sequence :18 2022/3/2 4:4:47EST
+Sequence :18 2022/3/2 4:4:47EST
+Sequence :17 2022/3/2 4:4:47EST
+Sequence :18 2022/3/2 4:4:47EST
+Sequence :17 2022/3/2 4:4:47EST
+Sequence :18 2022/3/2 4:4:47EST
+Sequence :17 2022/3/2 4:4:47EST
+Sequence :17 2022/3/2 4:4:47EST
+Sequence :18 2022/3/2 4:4:47EST
+Sequence :17 2022/3/2 4:4:47EST
+Sequence :18 2022/3/2 4:4:47EST
+Sequence :17 2022/3/2 4:4:47EST
+Sequence :18 2022/3/2 4:4:47EST
+Sequence :17 2022/3/2 4:4:47EST
+Sequence :18 2022/3/2 4:4:47EST
+Sequence :17 2022/3/2 4:4:47EST
+Sequence :18 2022/3/2 4:4:47EST
+Sequence :17 2022/3/2 4:4:47EST
+Sequence :18 2022/3/2 4:4:47EST
+Sequence :18 2022/3/2 4:4:47EST
+Sequence :18 2022/3/2 4:4:47EST
+Sequence :18 2022/3/2 4:4:47EST
+Sequence :18 2022/3/2 4:4:47EST
+Sequence :18 2022/3/2 4:4:47EST
+Sequence :18 2022/3/2 4:4:47EST
+Sequence :18 2022/3/2 4:4:47EST
+Sequence :18 2022/3/2 4:4:47EST
+Sequence :21 2022/3/2 4:4:48EST
+promise set 2022/3/2 4:4:48EST
+Exiting thread.. 2022/3/2 4:4:48EST
+ck 2022/3/2 4:4:48EST
+ 2022/3/2 4:4:48EST
+Exiting thread.. 2022/3/2 4:4:49EST
+Sequence : 2022/3/2 4:4:52EST
+et (Fin)
+ 2022/3/2 4:4:52EST
+Sequence :22 2022/3/2 4:4:52EST
+Sequence :21 2022/3/2 4:4:52EST
+Sequence :21 2022/3/2 4:4:52EST
+Sequence :22 2022/3/2 4:4:52EST
+Sequence :22 2022/3/2 4:4:52EST
+Sequence :21 2022/3/2 4:4:52EST
+Sequence :22 2022/3/2 4:4:52EST
+Sequence :21 2022/3/2 4:4:52EST
+Sequence :22 2022/3/2 4:4:52EST
+Sequence :21 2022/3/2 4:4:52EST
+Sequence :22 2022/3/2 4:4:52EST
+Sequence :21 2022/3/2 4:4:52EST
+Sequence :22 2022/3/2 4:4:52EST
+Sequence :21 2022/3/2 4:4:52EST
+Sequence :22 2022/3/2 4:4:52EST
+Sequence :21 2022/3/2 4:4:52EST
+Sequence :22 2022/3/2 4:4:52EST
+Sequence :21 2022/3/2 4:4:52EST
+Sequence :22 2022/3/2 4:4:52EST
+Sequence :21 2022/3/2 4:4:52EST
+Sequence :22 2022/3/2 4:4:52EST
+Sequence :22 2022/3/2 4:4:52EST
+Sequence :22 2022/3/2 4:4:52EST
+Sequence :22 2022/3/2 4:4:52EST
+Sequence :22 2022/3/2 4:4:52EST
+Sequence :22 2022/3/2 4:4:52EST
+Sequence :22 2022/3/2 4:4:52EST
+Sequence :22 2022/3/2 4:4:52EST
+Sequence :22 2022/3/2 4:4:52EST
+Sequence :26 2022/3/2 4:4:52EST
+Sequence :25 2022/3/2 4:4:52EST
+promise set 2022/3/2 4:4:52EST
+Exiting thread.. 2022/3/2 4:4:52EST
+ 2022/3/2 4:4:52EST
+es 2022/3/2 4:4:52EST
+Exiting thread.. 2022/3/2 4:4:53EST
+ence : 2022/3/2 4:4:56EST
+Fin)
+ 2022/3/2 4:4:56EST
+Sequence :25 2022/3/2 4:4:56EST
+Sequence :25 2022/3/2 4:4:56EST
+Sequence :26 2022/3/2 4:4:56EST
+Sequence :25 2022/3/2 4:4:56EST
+Sequence :26 2022/3/2 4:4:56EST
+Sequence :25 2022/3/2 4:4:56EST
+Sequence :26 2022/3/2 4:4:56EST
+Sequence :25 2022/3/2 4:4:56EST
+Sequence :26 2022/3/2 4:4:56EST
+Sequence :25 2022/3/2 4:4:56EST
+Sequence :26 2022/3/2 4:4:56EST
+Sequence :25 2022/3/2 4:4:56EST
+Sequence :26 2022/3/2 4:4:56EST
+Sequence :25 2022/3/2 4:4:56EST
+Sequence :26 2022/3/2 4:4:56EST
+Sequence :25 2022/3/2 4:4:56EST
+Sequence :26 2022/3/2 4:4:56EST
+Sequence :25 2022/3/2 4:4:56EST
+Sequence :26 2022/3/2 4:4:56EST
+Sequence :26 2022/3/2 4:4:56EST
+Sequence :25 2022/3/2 4:4:56EST
+Sequence :26 2022/3/2 4:4:56EST
+Sequence :26 2022/3/2 4:4:56EST
+Sequence :26 2022/3/2 4:4:56EST
+Sequence :26 2022/3/2 4:4:56EST
+Sequence :26 2022/3/2 4:4:56EST
+Sequence :26 2022/3/2 4:4:56EST
+Sequence :26 2022/3/2 4:4:56EST
+Sequence :26 2022/3/2 4:4:56EST
+Sequence :30 2022/3/2 4:4:57EST
+Sequence :29 2022/3/2 4:4:57EST
+promise set 2022/3/2 4:4:57EST
+Exiting thread.. 2022/3/2 4:4:57EST
+ 2022/3/2 4:4:57EST
+ 2022/3/2 4:4:57EST
+Exiting thread.. 2022/3/2 4:4:58EST
+ : 2022/3/2 4:5:1EST
+
+ 2022/3/2 4:5:1EST
+Sequence :29 2022/3/2 4:5:1EST
+Sequence :30 2022/3/2 4:5:1EST
+Sequence :30 2022/3/2 4:5:1EST
+Sequence :29 2022/3/2 4:5:1EST
+Sequence :30 2022/3/2 4:5:1EST
+Sequence :29 2022/3/2 4:5:1EST
+Sequence :29 2022/3/2 4:5:1EST
+Sequence :30 2022/3/2 4:5:1EST
+Sequence :29 2022/3/2 4:5:1EST
+Sequence :30 2022/3/2 4:5:1EST
+Sequence :29 2022/3/2 4:5:1EST
+Sequence :30 2022/3/2 4:5:1EST
+Sequence :29 2022/3/2 4:5:1EST
+Sequence :30 2022/3/2 4:5:1EST
+Sequence :30 2022/3/2 4:5:1EST
+Sequence :29 2022/3/2 4:5:1EST
+Sequence :30 2022/3/2 4:5:1EST
+Sequence :29 2022/3/2 4:5:1EST
+Sequence :30 2022/3/2 4:5:1EST
+Sequence :29 2022/3/2 4:5:1EST
+Sequence :30 2022/3/2 4:5:1EST
+Sequence :30 2022/3/2 4:5:1EST
+Sequence :30 2022/3/2 4:5:1EST
+Sequence :30 2022/3/2 4:5:1EST
+Sequence :30 2022/3/2 4:5:1EST
+Sequence :30 2022/3/2 4:5:1EST
+Sequence :30 2022/3/2 4:5:1EST
+Sequence :30 2022/3/2 4:5:1EST
+Exiting thread.. 2022/3/2 4:5:1EST
+Sequence :33 2022/3/2 4:5:6EST
+promise set 2022/3/2 4:5:6EST
+ 2022/3/2 4:5:6EST
+eads 2022/3/2 4:5:6EST
+Exiting thread.. 2022/3/2 4:5:7EST
+ 2022/3/2 4:5:7EST
+ 2022/3/2 4:5:7EST
+Sequence :33 2022/3/2 4:5:7EST
+Sequence :34 2022/3/2 4:5:7EST
+Sequence :34 2022/3/2 4:5:7EST
+Sequence :33 2022/3/2 4:5:7EST
+Sequence :33 2022/3/2 4:5:7EST
+Sequence :34 2022/3/2 4:5:7EST
+Sequence :33 2022/3/2 4:5:7EST
+Sequence :34 2022/3/2 4:5:7EST
+Sequence :33 2022/3/2 4:5:7EST
+Sequence :34 2022/3/2 4:5:7EST
+Sequence :34 2022/3/2 4:5:7EST
+Sequence :33 2022/3/2 4:5:7EST
+Sequence :33 2022/3/2 4:5:7EST
+Sequence :34 2022/3/2 4:5:7EST
+Sequence :33 2022/3/2 4:5:7EST
+Sequence :34 2022/3/2 4:5:7EST
+Sequence :33 2022/3/2 4:5:7EST
+Sequence :34 2022/3/2 4:5:7EST
+Sequence :34 2022/3/2 4:5:7EST
+Sequence :33 2022/3/2 4:5:7EST
+Sequence :34 2022/3/2 4:5:7EST
+Sequence :34 2022/3/2 4:5:7EST
+Sequence :34 2022/3/2 4:5:7EST
+Sequence :34 2022/3/2 4:5:7EST
+Sequence :34 2022/3/2 4:5:7EST
+Sequence :34 2022/3/2 4:5:7EST
+Sequence :34 2022/3/2 4:5:7EST
+Sequence :34 2022/3/2 4:5:7EST
+Sequence :34 2022/3/2 4:5:7EST
+Exiting thread.. 2022/3/2 4:5:8EST
+Sequence :38 2022/3/2 4:5:12EST
+Sequence :37 2022/3/2 4:5:12EST
+promise set 2022/3/2 4:5:12EST
+ 2022/3/2 4:5:12EST
+ 2022/3/2 4:5:12EST
+Exiting thread.. 2022/3/2 4:5:13EST
+promise set 2022/3/2 4:5:13EST
+romise set(Fin) 2022/3/2 4:5:13EST
+Sequence :37 2022/3/2 4:5:13EST
+Sequence :37 2022/3/2 4:5:13EST
+Sequence :38 2022/3/2 4:5:13EST
+Sequence :37 2022/3/2 4:5:13EST
+Sequence :38 2022/3/2 4:5:13EST
+Sequence :37 2022/3/2 4:5:13EST
+Sequence :38 2022/3/2 4:5:13EST
+Sequence :37 2022/3/2 4:5:13EST
+Sequence :38 2022/3/2 4:5:13EST
+Sequence :37 2022/3/2 4:5:13EST
+Sequence :38 2022/3/2 4:5:13EST
+Sequence :38 2022/3/2 4:5:13EST
+Sequence :37 2022/3/2 4:5:13EST
+Sequence :38 2022/3/2 4:5:13EST
+Sequence :37 2022/3/2 4:5:13EST
+Sequence :38 2022/3/2 4:5:13EST
+Sequence :37 2022/3/2 4:5:13EST
+Sequence :38 2022/3/2 4:5:13EST
+Sequence :37 2022/3/2 4:5:13EST
+Sequence :38 2022/3/2 4:5:13EST
+Sequence :37 2022/3/2 4:5:13EST
+Sequence :38 2022/3/2 4:5:13EST
+Sequence :38 2022/3/2 4:5:13EST
+Sequence :38 2022/3/2 4:5:13EST
+Sequence :38 2022/3/2 4:5:13EST
+Sequence :38 2022/3/2 4:5:13EST
+Sequence :38 2022/3/2 4:5:13EST
+Sequence :38 2022/3/2 4:5:13EST
+Sequence :38 2022/3/2 4:5:13EST
+Exiting thread.. 2022/3/2 4:5:14EST
+Sequence :42 2022/3/2 4:5:18EST
+Sequence :41 2022/3/2 4:5:18EST
+promise set 2022/3/2 4:5:18EST
+mes 2022/3/2 4:5:18EST
+ 2022/3/2 4:5:18EST
+Exiting thread.. 2022/3/2 4:5:19EST
+ise set 2022/3/2 4:5:19EST
+se set(Fin) 2022/3/2 4:5:19EST
+Sequence :41 2022/3/2 4:5:19EST
+Sequence :42 2022/3/2 4:5:19EST
+Sequence :41 2022/3/2 4:5:19EST
+Sequence :41 2022/3/2 4:5:19EST
+Sequence :42 2022/3/2 4:5:19EST
+Sequence :41 2022/3/2 4:5:19EST
+Sequence :42 2022/3/2 4:5:19EST
+Sequence :41 2022/3/2 4:5:19EST
+Sequence :42 2022/3/2 4:5:19EST
+Sequence :41 2022/3/2 4:5:19EST
+Sequence :42 2022/3/2 4:5:19EST
+Sequence :41 2022/3/2 4:5:19EST
+Sequence :42 2022/3/2 4:5:19EST
+Sequence :42 2022/3/2 4:5:19EST
+Sequence :41 2022/3/2 4:5:19EST
+Sequence :41 2022/3/2 4:5:19EST
+Sequence :42 2022/3/2 4:5:19EST
+Sequence :42 2022/3/2 4:5:19EST
+Sequence :41 2022/3/2 4:5:19EST
+Sequence :42 2022/3/2 4:5:19EST
+Sequence :41 2022/3/2 4:5:19EST
+Sequence :42 2022/3/2 4:5:19EST
+Sequence :42 2022/3/2 4:5:19EST
+Sequence :42 2022/3/2 4:5:19EST
+Sequence :42 2022/3/2 4:5:19EST
+Sequence :42 2022/3/2 4:5:19EST
+Sequence :42 2022/3/2 4:5:19EST
+Sequence :42 2022/3/2 4:5:19EST
+Sequence :42 2022/3/2 4:5:19EST
+Sequence :45 2022/3/2 4:5:19EST
+promise set 2022/3/2 4:5:19EST
+Exiting thread.. 2022/3/2 4:5:19EST
+ 2022/3/2 4:5:19EST
+ 2022/3/2 4:5:19EST
+Exiting thread.. 2022/3/2 4:5:20EST
+set 2022/3/2 4:5:23EST
+et(Fin) 2022/3/2 4:5:23EST
+Sequence :45 2022/3/2 4:5:23EST
+Sequence :46 2022/3/2 4:5:23EST
+Sequence :46 2022/3/2 4:5:23EST
+Sequence :45 2022/3/2 4:5:23EST
+Sequence :45 2022/3/2 4:5:23EST
+Sequence :46 2022/3/2 4:5:23EST
+Sequence :45 2022/3/2 4:5:23EST
+Sequence :46 2022/3/2 4:5:23EST
+Sequence :45 2022/3/2 4:5:23EST
+Sequence :46 2022/3/2 4:5:23EST
+Sequence :45 2022/3/2 4:5:23EST
+Sequence :46 2022/3/2 4:5:23EST
+Sequence :46 2022/3/2 4:5:23EST
+Sequence :45 2022/3/2 4:5:23EST
+Sequence :46 2022/3/2 4:5:23EST
+Sequence :45 2022/3/2 4:5:23EST
+Sequence :46 2022/3/2 4:5:23EST
+Sequence :45 2022/3/2 4:5:23EST
+Sequence :46 2022/3/2 4:5:23EST
+Sequence :45 2022/3/2 4:5:23EST
+Sequence :46 2022/3/2 4:5:23EST
+Sequence :46 2022/3/2 4:5:23EST
+Sequence :46 2022/3/2 4:5:23EST
+Sequence :46 2022/3/2 4:5:23EST
+Sequence :46 2022/3/2 4:5:23EST
+Sequence :46 2022/3/2 4:5:23EST
+Sequence :46 2022/3/2 4:5:23EST
+Sequence :46 2022/3/2 4:5:23EST
+Sequence :46 2022/3/2 4:5:23EST
+Sequence :50 2022/3/2 4:5:24EST
+Sequence :49 2022/3/2 4:5:24EST
+promise set 2022/3/2 4:5:24EST
+Exiting thread.. 2022/3/2 4:5:24EST
+reads 2022/3/2 4:5:24EST
+³ö 2022/3/2 4:5:24EST
+Exiting thread.. 2022/3/2 4:5:25EST
+ 2022/3/2 4:5:28EST
+in) 2022/3/2 4:5:28EST
+Sequence :49 2022/3/2 4:5:28EST
+Sequence :50 2022/3/2 4:5:28EST
+Sequence :49 2022/3/2 4:5:28EST
+Sequence :50 2022/3/2 4:5:28EST
+Sequence :49 2022/3/2 4:5:28EST
+Sequence :50 2022/3/2 4:5:28EST
+Sequence :49 2022/3/2 4:5:28EST
+Sequence :50 2022/3/2 4:5:28EST
+Sequence :49 2022/3/2 4:5:28EST
+Sequence :50 2022/3/2 4:5:28EST
+Sequence :49 2022/3/2 4:5:28EST
+Sequence :50 2022/3/2 4:5:28EST
+Sequence :49 2022/3/2 4:5:28EST
+Sequence :50 2022/3/2 4:5:28EST
+Sequence :49 2022/3/2 4:5:28EST
+Sequence :50 2022/3/2 4:5:28EST
+Sequence :49 2022/3/2 4:5:28EST
+Sequence :50 2022/3/2 4:5:28EST
+Sequence :49 2022/3/2 4:5:28EST
+Sequence :50 2022/3/2 4:5:28EST
+Sequence :50 2022/3/2 4:5:28EST
+Sequence :50 2022/3/2 4:5:28EST
+Sequence :50 2022/3/2 4:5:28EST
+Sequence :50 2022/3/2 4:5:28EST
+Sequence :50 2022/3/2 4:5:28EST
+Sequence :50 2022/3/2 4:5:28EST
+Sequence :50 2022/3/2 4:5:28EST
+Sequence :50 2022/3/2 4:5:28EST
+Sequence :53 2022/3/2 4:5:28EST
+promise set 2022/3/2 4:5:28EST
+Exiting thread.. 2022/3/2 4:5:28EST
+s 2022/3/2 4:5:28EST
+ 2022/3/2 4:5:28EST
+Exiting thread.. 2022/3/2 4:5:29EST
+Recieve data 2022/3/2 4:5:32EST
+ 2022/3/2 4:5:32EST
+Sequence :53 2022/3/2 4:5:32EST
+Sequence :54 2022/3/2 4:5:32EST
+Sequence :53 2022/3/2 4:5:32EST
+Sequence :54 2022/3/2 4:5:32EST
+Sequence :53 2022/3/2 4:5:32EST
+Sequence :54 2022/3/2 4:5:32EST
+Sequence :54 2022/3/2 4:5:32EST
+Sequence :53 2022/3/2 4:5:32EST
+Sequence :54 2022/3/2 4:5:32EST
+Sequence :53 2022/3/2 4:5:32EST
+Sequence :54 2022/3/2 4:5:32EST
+Sequence :53 2022/3/2 4:5:32EST
+Sequence :54 2022/3/2 4:5:32EST
+Sequence :53 2022/3/2 4:5:32EST
+Sequence :53 2022/3/2 4:5:32EST
+Sequence :54 2022/3/2 4:5:32EST
+Sequence :53 2022/3/2 4:5:32EST
+Sequence :54 2022/3/2 4:5:32EST
+Sequence :54 2022/3/2 4:5:32EST
+Sequence :53 2022/3/2 4:5:32EST
+Sequence :54 2022/3/2 4:5:32EST
+Sequence :54 2022/3/2 4:5:32EST
+Sequence :54 2022/3/2 4:5:32EST
+Sequence :54 2022/3/2 4:5:32EST
+Sequence :54 2022/3/2 4:5:32EST
+Sequence :54 2022/3/2 4:5:32EST
+Sequence :54 2022/3/2 4:5:32EST
+Sequence :54 2022/3/2 4:5:32EST
+Sequence :54 2022/3/2 4:5:32EST
+Sequence :57 2022/3/2 4:5:33EST
+promise set 2022/3/2 4:5:33EST
+Exiting thread.. 2022/3/2 4:5:33EST
+ 2022/3/2 4:5:33EST
+ 2022/3/2 4:5:33EST
+Exiting thread.. 2022/3/2 4:5:34EST
+eve data 2022/3/2 4:5:37EST
+ 2022/3/2 4:5:37EST
+Sequence :57 2022/3/2 4:5:37EST
+Sequence :58 2022/3/2 4:5:37EST
+Sequence :58 2022/3/2 4:5:37EST
+Sequence :57 2022/3/2 4:5:37EST
+Sequence :58 2022/3/2 4:5:37EST
+Sequence :57 2022/3/2 4:5:37EST
+Sequence :58 2022/3/2 4:5:37EST
+Sequence :57 2022/3/2 4:5:37EST
+Sequence :57 2022/3/2 4:5:37EST
+Sequence :58 2022/3/2 4:5:37EST
+Sequence :58 2022/3/2 4:5:37EST
+Sequence :57 2022/3/2 4:5:37EST
+Sequence :57 2022/3/2 4:5:37EST
+Sequence :58 2022/3/2 4:5:37EST
+Sequence :57 2022/3/2 4:5:37EST
+Sequence :58 2022/3/2 4:5:37EST
+Sequence :58 2022/3/2 4:5:37EST
+Sequence :57 2022/3/2 4:5:37EST
+Sequence :57 2022/3/2 4:5:37EST
+Sequence :58 2022/3/2 4:5:37EST
+Sequence :58 2022/3/2 4:5:37EST
+Sequence :58 2022/3/2 4:5:37EST
+Sequence :58 2022/3/2 4:5:37EST
+Sequence :58 2022/3/2 4:5:37EST
+Sequence :58 2022/3/2 4:5:37EST
+Sequence :58 2022/3/2 4:5:37EST
+Sequence :58 2022/3/2 4:5:37EST
+Sequence :58 2022/3/2 4:5:37EST
+Sequence :58 2022/3/2 4:5:37EST
+Sequence :62 2022/3/2 4:5:37EST
+Sequence :61 2022/3/2 4:5:37EST
+promise set 2022/3/2 4:5:37EST
+Exiting thread.. 2022/3/2 4:5:37EST
+ 2022/3/2 4:5:37EST
+ 2022/3/2 4:5:37EST
+Exiting thread.. 2022/3/2 4:5:38EST
+data 2022/3/2 4:5:41EST
+ending request : 2022/3/2 4:5:41EST
+Sequence :62 2022/3/2 4:5:41EST
+Sequence :61 2022/3/2 4:5:41EST
+Sequence :62 2022/3/2 4:5:41EST
+Sequence :61 2022/3/2 4:5:41EST
+Sequence :62 2022/3/2 4:5:41EST
+Sequence :61 2022/3/2 4:5:41EST
+Sequence :62 2022/3/2 4:5:41EST
+Sequence :61 2022/3/2 4:5:41EST
+Sequence :62 2022/3/2 4:5:41EST
+Sequence :61 2022/3/2 4:5:41EST
+Sequence :62 2022/3/2 4:5:41EST
+Sequence :61 2022/3/2 4:5:41EST
+Sequence :62 2022/3/2 4:5:41EST
+Sequence :61 2022/3/2 4:5:41EST
+Sequence :62 2022/3/2 4:5:41EST
+Sequence :61 2022/3/2 4:5:41EST
+Sequence :61 2022/3/2 4:5:41EST
+Sequence :62 2022/3/2 4:5:41EST
+Sequence :61 2022/3/2 4:5:41EST
+Sequence :62 2022/3/2 4:5:41EST
+Sequence :62 2022/3/2 4:5:41EST
+Sequence :62 2022/3/2 4:5:41EST
+Sequence :62 2022/3/2 4:5:41EST
+Sequence :62 2022/3/2 4:5:41EST
+Sequence :62 2022/3/2 4:5:41EST
+Sequence :62 2022/3/2 4:5:41EST
+Sequence :62 2022/3/2 4:5:41EST
+Sequence :62 2022/3/2 4:5:41EST
+Sequence :65 2022/3/2 4:5:42EST
+promise set 2022/3/2 4:5:42EST
+Exiting thread.. 2022/3/2 4:5:42EST
+K³ö 2022/3/2 4:5:42EST
+³ö 2022/3/2 4:5:42EST
+Exiting thread.. 2022/3/2 4:5:42EST
+ 2022/3/2 4:5:45EST
+ng request : 2022/3/2 4:5:45EST
+Sequence :65 2022/3/2 4:5:45EST
+Sequence :66 2022/3/2 4:5:45EST
+Sequence :66 2022/3/2 4:5:45EST
+Sequence :65 2022/3/2 4:5:45EST
+Sequence :66 2022/3/2 4:5:45EST
+Sequence :65 2022/3/2 4:5:45EST
+Sequence :66 2022/3/2 4:5:45EST
+Sequence :65 2022/3/2 4:5:45EST
+Sequence :66 2022/3/2 4:5:45EST
+Sequence :65 2022/3/2 4:5:45EST
+Sequence :66 2022/3/2 4:5:45EST
+Sequence :65 2022/3/2 4:5:45EST
+Sequence :66 2022/3/2 4:5:45EST
+Sequence :65 2022/3/2 4:5:45EST
+Sequence :65 2022/3/2 4:5:45EST
+Sequence :66 2022/3/2 4:5:45EST
+Sequence :65 2022/3/2 4:5:45EST
+Sequence :66 2022/3/2 4:5:45EST
+Sequence :65 2022/3/2 4:5:45EST
+Sequence :66 2022/3/2 4:5:45EST
+Sequence :66 2022/3/2 4:5:45EST
+Sequence :66 2022/3/2 4:5:45EST
+Sequence :66 2022/3/2 4:5:45EST
+Sequence :66 2022/3/2 4:5:45EST
+Sequence :66 2022/3/2 4:5:45EST
+Sequence :66 2022/3/2 4:5:45EST
+Sequence :66 2022/3/2 4:5:45EST
+Sequence :66 2022/3/2 4:5:45EST
+Sequence :66 2022/3/2 4:5:45EST
+Exiting thread.. 2022/3/2 4:5:46EST
+Sequence :70 2022/3/2 4:5:56EST
+Sequence :69 2022/3/2 4:5:56EST
+promise set 2022/3/2 4:5:56EST
+ 2022/3/2 4:5:56EST
+ 2022/3/2 4:5:56EST
+Exiting thread.. 2022/3/2 4:5:57EST
+Send Ack 2022/3/2 4:5:57EST
+equest : 2022/3/2 4:5:57EST
+Sequence :69 2022/3/2 4:5:57EST
+Sequence :70 2022/3/2 4:5:57EST
+Sequence :69 2022/3/2 4:5:57EST
+Sequence :70 2022/3/2 4:5:57EST
+Sequence :69 2022/3/2 4:5:57EST
+Sequence :70 2022/3/2 4:5:57EST
+Sequence :69 2022/3/2 4:5:57EST
+Sequence :69 2022/3/2 4:5:57EST
+Sequence :70 2022/3/2 4:5:57EST
+Sequence :70 2022/3/2 4:5:57EST
+Sequence :69 2022/3/2 4:5:57EST
+Sequence :70 2022/3/2 4:5:57EST
+Sequence :69 2022/3/2 4:5:57EST
+Sequence :70 2022/3/2 4:5:57EST
+Sequence :69 2022/3/2 4:5:57EST
+Sequence :70 2022/3/2 4:5:57EST
+Sequence :69 2022/3/2 4:5:57EST
+Sequence :70 2022/3/2 4:5:57EST
+Sequence :69 2022/3/2 4:5:57EST
+Sequence :69 2022/3/2 4:5:57EST
+Sequence :70 2022/3/2 4:5:57EST
+Sequence :70 2022/3/2 4:5:57EST
+Sequence :70 2022/3/2 4:5:57EST
+Sequence :70 2022/3/2 4:5:57EST
+Sequence :70 2022/3/2 4:5:57EST
+Sequence :70 2022/3/2 4:5:57EST
+Sequence :70 2022/3/2 4:5:57EST
+Sequence :70 2022/3/2 4:5:57EST
+Sequence :70 2022/3/2 4:5:57EST
+Exiting thread.. 2022/3/2 4:5:57EST
+Random Seeded... 2022/3/2 4:6:6EST
+Creating Games...  2022/3/2 4:6:6EST
+Game %d created... 
+01 2022/3/2 4:6:6EST
+Game %d created... 
+11 2022/3/2 4:6:6EST
+Game %d created... 
+21 2022/3/2 4:6:6EST
+Game %d created... 
+31 2022/3/2 4:6:6EST
+Game %d created... 
+41 2022/3/2 4:6:6EST
+Game %d created... 
+51 2022/3/2 4:6:6EST
+Game %d created... 
+61 2022/3/2 4:6:6EST
+Game %d created... 
+71 2022/3/2 4:6:6EST
+Cleaning WSA...  2022/3/2 4:6:6EST
+Config the local address...  2022/3/2 4:6:6EST
+Creating Socket...  2022/3/2 4:6:6EST
+Start Listening...  2022/3/2 4:6:6EST
+Waiting for connection...  2022/3/2 4:6:6EST
+Recieved Request 0 2022/3/2 4:6:10EST
+Sending Ack: 1 2022/3/2 4:6:10EST
+Sending data: 2 2022/3/2 4:6:10EST
+Recieve Ack 3 2022/3/2 4:6:10EST
+promise set(Fin) 2022/3/2 4:6:11EST
+Exiting thread.. 2022/3/2 4:6:11EST
+Exiting thread.. 2022/3/2 4:6:11EST
+Recieved Request 4 2022/3/2 4:6:13EST
+Sending Ack: 5 2022/3/2 4:6:13EST
+Sending data: 6 2022/3/2 4:6:13EST
+Recieve Ack 7 2022/3/2 4:6:13EST
+promise set(Fin) 2022/3/2 4:6:14EST
+Exiting thread.. 2022/3/2 4:6:14EST
+Exiting thread.. 2022/3/2 4:6:14EST
+Recieved Request 8 2022/3/2 4:6:17EST
+Sending Ack: 9 2022/3/2 4:6:17EST
+Sending data: 10 2022/3/2 4:6:17EST
+Recieve Ack 11 2022/3/2 4:6:17EST
+Exiting thread.. 2022/3/2 4:6:17EST
+Exiting thread.. 2022/3/2 4:6:17EST
+Random Seeded... 2022/3/2 4:7:47EST
+Creating Games...  2022/3/2 4:7:47EST
+Game %d created... 
+01 2022/3/2 4:7:47EST
+Game %d created... 
+11 2022/3/2 4:7:47EST
+Game %d created... 
+21 2022/3/2 4:7:47EST
+Game %d created... 
+31 2022/3/2 4:7:47EST
+Game %d created... 
+41 2022/3/2 4:7:47EST
+Game %d created... 
+51 2022/3/2 4:7:47EST
+Game %d created... 
+61 2022/3/2 4:7:47EST
+Game %d created... 
+71 2022/3/2 4:7:47EST
+Cleaning WSA...  2022/3/2 4:7:47EST
+Config the local address...  2022/3/2 4:7:47EST
+Creating Socket...  2022/3/2 4:7:47EST
+Start Listening...  2022/3/2 4:7:47EST
+Waiting for connection...  2022/3/2 4:7:47EST
+Recieved Request 0 2022/3/2 4:7:54EST
+Sending Ack: 1 2022/3/2 4:7:54EST
+Sending data: 2 2022/3/2 4:7:54EST
+Recieve Ack 3 2022/3/2 4:7:54EST
+Exiting thread.. 2022/3/2 4:7:54EST
+Exiting thread.. 2022/3/2 4:7:54EST
+promise set(Fin) 2022/3/2 4:7:54EST
+Recieved Request 4 2022/3/2 4:7:57EST
+Sending Ack: 5 2022/3/2 4:7:57EST
+Sending data: 6 2022/3/2 4:7:57EST
+Recieve Ack 7 2022/3/2 4:7:57EST
+Exiting thread.. 2022/3/2 4:7:58EST
+Exiting thread.. 2022/3/2 4:7:58EST
+Recieved Request 8 2022/3/2 4:8:0EST
+Sending Ack: 9 2022/3/2 4:8:0EST
+Sending data: 10 2022/3/2 4:8:0EST
+Recieve Ack 11 2022/3/2 4:8:0EST
+Exiting thread.. 2022/3/2 4:8:1EST
+Exiting thread.. 2022/3/2 4:8:1EST
+Random Seeded... 2022/3/2 4:10:6EST
+Creating Games...  2022/3/2 4:10:6EST
+Game %d created... 
+01 2022/3/2 4:10:6EST
+Game %d created... 
+11 2022/3/2 4:10:6EST
+Game %d created... 
+21 2022/3/2 4:10:6EST
+Game %d created... 
+31 2022/3/2 4:10:6EST
+Game %d created... 
+41 2022/3/2 4:10:6EST
+Game %d created... 
+51 2022/3/2 4:10:6EST
+Game %d created... 
+61 2022/3/2 4:10:6EST
+Game %d created... 
+71 2022/3/2 4:10:6EST
+Cleaning WSA...  2022/3/2 4:10:6EST
+Config the local address...  2022/3/2 4:10:6EST
+Creating Socket...  2022/3/2 4:10:6EST
+Start Listening...  2022/3/2 4:10:6EST
+Waiting for connection...  2022/3/2 4:10:6EST
+Recieved Request 0 2022/3/2 4:10:19EST
+Sending Ack: 1 2022/3/2 4:10:19EST
+Sending data: 2 2022/3/2 4:10:19EST
+Recieve Ack 3 2022/3/2 4:10:19EST
+promise set(Fin) 2022/3/2 4:10:19EST
+Exiting thread.. 2022/3/2 4:10:19EST
+Exiting thread.. 2022/3/2 4:10:19EST
+Recieved Request 4 2022/3/2 4:10:22EST
+Sending Ack: 5 2022/3/2 4:10:22EST
+Sending data: 6 2022/3/2 4:10:22EST
+Recieve Ack 7 2022/3/2 4:10:22EST
+Exiting thread.. 2022/3/2 4:10:23EST
+Exiting thread.. 2022/3/2 4:10:23EST
+Recieved Request 8 2022/3/2 4:10:29EST
+Sending Ack: 9 2022/3/2 4:10:29EST
+Sending data: 10 2022/3/2 4:10:29EST
+Recieve Ack 11 2022/3/2 4:10:29EST
+Exiting thread.. 2022/3/2 4:10:30EST
+promise set(Fin) 2022/3/2 4:10:30EST
+Exiting thread.. 2022/3/2 4:10:30EST
+est : 2022/3/2 4:10:30EST
+ 2022/3/2 4:10:30EST
+Sequence :11 2022/3/2 4:10:30EST
+Sequence :11 2022/3/2 4:10:30EST
+Sequence :11 2022/3/2 4:10:30EST
+Sequence :11 2022/3/2 4:10:30EST
+Sequence :11 2022/3/2 4:10:30EST
+Sequence :11 2022/3/2 4:10:30EST
+Sequence :11 2022/3/2 4:10:30EST
+Sequence :11 2022/3/2 4:10:30EST
+Sequence :11 2022/3/2 4:10:30EST
+Sequence :11 2022/3/2 4:10:30EST
+Sequence :11 2022/3/2 4:10:30EST
+Sequence :11 2022/3/2 4:10:30EST
+Sequence :11 2022/3/2 4:10:30EST
+Sequence :11 2022/3/2 4:10:31EST
+Sequence :11 2022/3/2 4:10:31EST
+Sequence :11 2022/3/2 4:10:31EST
+Sequence :11 2022/3/2 4:10:31EST
+Sequence :11 2022/3/2 4:10:31EST
+Sequence :11 2022/3/2 4:10:31EST
+Exiting thread.. 2022/3/2 4:10:31EST
+Random Seeded... 2022/3/2 4:17:16EST
+Creating Games...  2022/3/2 4:17:16EST
+Game %d created... 
+01 2022/3/2 4:17:16EST
+Game %d created... 
+11 2022/3/2 4:17:16EST
+Game %d created... 
+21 2022/3/2 4:17:16EST
+Game %d created... 
+31 2022/3/2 4:17:16EST
+Game %d created... 
+41 2022/3/2 4:17:16EST
+Game %d created... 
+51 2022/3/2 4:17:16EST
+Game %d created... 
+61 2022/3/2 4:17:16EST
+Game %d created... 
+71 2022/3/2 4:17:16EST
+Cleaning WSA...  2022/3/2 4:17:16EST
+Config the local address...  2022/3/2 4:17:16EST
+Creating Socket...  2022/3/2 4:17:16EST
+Start Listening...  2022/3/2 4:17:16EST
+Waiting for connection...  2022/3/2 4:17:16EST
+Recieved Request 0 2022/3/2 4:17:22EST
+Sending Ack: 1 2022/3/2 4:17:22EST
+Sending data: 2 2022/3/2 4:17:22EST
+Recieve Ack 3 2022/3/2 4:17:22EST
+Exiting thread.. 2022/3/2 4:17:23EST
+Exiting thread.. 2022/3/2 4:17:23EST
+promise set(Fin) 2022/3/2 4:17:23EST
+Waiting for connection...  2022/3/2 4:17:33EST
+Random Seeded... 2022/3/2 4:18:45EST
+Creating Games...  2022/3/2 4:18:45EST
+Game %d created... 
+01 2022/3/2 4:18:45EST
+Game %d created... 
+11 2022/3/2 4:18:45EST
+Game %d created... 
+21 2022/3/2 4:18:45EST
+Game %d created... 
+31 2022/3/2 4:18:45EST
+Game %d created... 
+41 2022/3/2 4:18:45EST
+Game %d created... 
+51 2022/3/2 4:18:45EST
+Game %d created... 
+61 2022/3/2 4:18:45EST
+Game %d created... 
+71 2022/3/2 4:18:45EST
+Cleaning WSA...  2022/3/2 4:18:45EST
+Config the local address...  2022/3/2 4:18:45EST
+Creating Socket...  2022/3/2 4:18:45EST
+Start Listening...  2022/3/2 4:18:45EST
+Waiting for connection...  2022/3/2 4:18:45EST
+Recieved Request 0 2022/3/2 4:18:49EST
+Sending Ack: 1 2022/3/2 4:18:49EST
+Sending data: 2 2022/3/2 4:18:49EST
+Recieve Ack 3 2022/3/2 4:18:49EST
+Exiting thread.. 2022/3/2 4:18:50EST
+Exiting thread.. 2022/3/2 4:18:50EST
+promise set(Fin) 2022/3/2 4:18:50EST
+Waiting for connection...  2022/3/2 4:18:56EST
+Random Seeded... 2022/3/2 4:19:14EST
+Creating Games...  2022/3/2 4:19:14EST
+Game %d created... 
+01 2022/3/2 4:19:14EST
+Game %d created... 
+11 2022/3/2 4:19:14EST
+Game %d created... 
+21 2022/3/2 4:19:14EST
+Game %d created... 
+31 2022/3/2 4:19:14EST
+Game %d created... 
+41 2022/3/2 4:19:14EST
+Game %d created... 
+51 2022/3/2 4:19:14EST
+Game %d created... 
+61 2022/3/2 4:19:14EST
+Game %d created... 
+71 2022/3/2 4:19:14EST
+Cleaning WSA...  2022/3/2 4:19:14EST
+Config the local address...  2022/3/2 4:19:14EST
+Creating Socket...  2022/3/2 4:19:14EST
+Start Listening...  2022/3/2 4:19:14EST
+Waiting for connection...  2022/3/2 4:19:14EST
+Recieved Request 0 2022/3/2 4:19:18EST
+Sending Ack: 1 2022/3/2 4:19:18EST
+Sending data: 2 2022/3/2 4:19:18EST
+Recieve Ack 3 2022/3/2 4:19:18EST
+Exiting thread.. 2022/3/2 4:19:18EST
+Exiting thread.. 2022/3/2 4:19:18EST
+promise set(Fin) 2022/3/2 4:19:18EST
+Waiting for connection...  2022/3/2 4:19:30EST
+Random Seeded... 2022/3/2 4:19:45EST
+Creating Games...  2022/3/2 4:19:45EST
+Game %d created... 
+01 2022/3/2 4:19:45EST
+Game %d created... 
+11 2022/3/2 4:19:45EST
+Game %d created... 
+21 2022/3/2 4:19:45EST
+Game %d created... 
+31 2022/3/2 4:19:45EST
+Game %d created... 
+41 2022/3/2 4:19:45EST
+Game %d created... 
+51 2022/3/2 4:19:45EST
+Game %d created... 
+61 2022/3/2 4:19:45EST
+Game %d created... 
+71 2022/3/2 4:19:45EST
+Cleaning WSA...  2022/3/2 4:19:45EST
+Config the local address...  2022/3/2 4:19:45EST
+Creating Socket...  2022/3/2 4:19:45EST
+Start Listening...  2022/3/2 4:19:45EST
+Waiting for connection...  2022/3/2 4:19:45EST
+Random Seeded... 2022/3/2 4:20:3EST
+Creating Games...  2022/3/2 4:20:3EST
+Game %d created... 
+01 2022/3/2 4:20:3EST
+Game %d created... 
+11 2022/3/2 4:20:3EST
+Game %d created... 
+21 2022/3/2 4:20:3EST
+Game %d created... 
+31 2022/3/2 4:20:3EST
+Game %d created... 
+41 2022/3/2 4:20:3EST
+Game %d created... 
+51 2022/3/2 4:20:3EST
+Game %d created... 
+61 2022/3/2 4:20:3EST
+Game %d created... 
+71 2022/3/2 4:20:3EST
+Cleaning WSA...  2022/3/2 4:20:3EST
+Config the local address...  2022/3/2 4:20:3EST
+Creating Socket...  2022/3/2 4:20:3EST
+Start Listening...  2022/3/2 4:20:3EST
+Waiting for connection...  2022/3/2 4:20:3EST
+Recieved Request 0 2022/3/2 4:20:7EST
+Sending Ack: 1 2022/3/2 4:20:7EST
+Sending data: 2 2022/3/2 4:20:7EST
+Recieve Ack 3 2022/3/2 4:20:7EST
+promise set(Fin) 2022/3/2 4:20:8EST
+Exiting thread.. 2022/3/2 4:20:8EST
+Exiting thread.. 2022/3/2 4:20:8EST
+Recieved Request 4 2022/3/2 4:20:14EST
+Sending Ack: 5 2022/3/2 4:20:14EST
+Sending data: 6 2022/3/2 4:20:14EST
+Recieve Ack 7 2022/3/2 4:20:14EST
+promise set(Fin) 2022/3/2 4:20:15EST
+Exiting thread.. 2022/3/2 4:20:15EST
+Exiting thread.. 2022/3/2 4:20:15EST
+Recieved Request 8 2022/3/2 4:20:48EST
+Sending Ack: 9 2022/3/2 4:20:48EST
+Sending data: 10 2022/3/2 4:20:48EST
+Recieve Ack 11 2022/3/2 4:20:48EST
+Exiting thread.. 2022/3/2 4:20:48EST
+Exiting thread.. 2022/3/2 4:20:48EST
+promise set(Fin) 2022/3/2 4:20:48EST
+Recieved Request 12 2022/3/2 4:20:57EST
+Sending Ack: 13 2022/3/2 4:20:57EST
+Sending data: 14 2022/3/2 4:20:57EST
+Recieve Ack 15 2022/3/2 4:20:57EST
+Exiting thread.. 2022/3/2 4:20:58EST
+promise set(Fin) 2022/3/2 4:20:58EST
+Exiting thread.. 2022/3/2 4:20:58EST
+Recieved Request 16 2022/3/2 4:21:0EST
+Sending Ack: 17 2022/3/2 4:21:0EST
+Sending data: 18 2022/3/2 4:21:0EST
+Recieve Ack 19 2022/3/2 4:21:0EST
+promise set(Fin) 2022/3/2 4:21:1EST
+Exiting thread.. 2022/3/2 4:21:1EST
+Exiting thread.. 2022/3/2 4:21:1EST
+ 2022/3/2 4:21:1EST
+se set (Fin)
+ 2022/3/2 4:21:1EST
+Sequence :19 2022/3/2 4:21:1EST
+Sequence :19 2022/3/2 4:21:1EST
+Sequence :19 2022/3/2 4:21:1EST
+Sequence :19 2022/3/2 4:21:1EST
+Sequence :19 2022/3/2 4:21:1EST
+Sequence :19 2022/3/2 4:21:1EST
+Sequence :19 2022/3/2 4:21:1EST
+Sequence :19 2022/3/2 4:21:1EST
+Sequence :19 2022/3/2 4:21:1EST
+Sequence :19 2022/3/2 4:21:1EST
+Sequence :19 2022/3/2 4:21:1EST
+Sequence :19 2022/3/2 4:21:1EST
+Sequence :19 2022/3/2 4:21:1EST
+Sequence :19 2022/3/2 4:21:1EST
+Sequence :19 2022/3/2 4:21:1EST
+Sequence :19 2022/3/2 4:21:1EST
+Sequence :19 2022/3/2 4:21:1EST
+Sequence :19 2022/3/2 4:21:1EST
+Sequence :19 2022/3/2 4:21:1EST
+Exiting thread.. 2022/3/2 4:21:2EST
+Random Seeded... 2022/3/2 4:24:14EST
+Creating Games...  2022/3/2 4:24:14EST
+Game %d created... 
+01 2022/3/2 4:24:14EST
+Game %d created... 
+11 2022/3/2 4:24:14EST
+Game %d created... 
+21 2022/3/2 4:24:14EST
+Game %d created... 
+31 2022/3/2 4:24:14EST
+Game %d created... 
+41 2022/3/2 4:24:14EST
+Game %d created... 
+51 2022/3/2 4:24:14EST
+Game %d created... 
+61 2022/3/2 4:24:14EST
+Game %d created... 
+71 2022/3/2 4:24:14EST
+Cleaning WSA...  2022/3/2 4:24:14EST
+Config the local address...  2022/3/2 4:24:14EST
+Creating Socket...  2022/3/2 4:24:14EST
+Start Listening...  2022/3/2 4:24:14EST
+Waiting for connection...  2022/3/2 4:24:14EST
+Recieved Request 0 2022/3/2 4:24:17EST
+Sending Ack: 1 2022/3/2 4:24:17EST
+Sending data: 2 2022/3/2 4:24:17EST
+Recieve Ack 3 2022/3/2 4:24:17EST
+promise set(Fin) 2022/3/2 4:24:18EST
+Exiting thread.. 2022/3/2 4:24:18EST
+Recieved Request 4 2022/3/2 4:24:21EST
+Sending Ack: 5 2022/3/2 4:24:21EST
+Sending data: 6 2022/3/2 4:24:21EST
+Recieve Ack 7 2022/3/2 4:24:21EST
+Exiting thread.. 2022/3/2 4:24:22EST
+Exiting thread.. 2022/3/2 4:24:22EST
+promise set(Fin) 2022/3/2 4:24:22EST
+Recieved Request 8 2022/3/2 4:24:24EST
+Sending Ack: 9 2022/3/2 4:24:24EST
+Sending data: 10 2022/3/2 4:24:24EST
+Recieve Ack 11 2022/3/2 4:24:24EST
+Exiting thread.. 2022/3/2 4:24:25EST
+promise set(Fin) 2022/3/2 4:24:25EST
+Exiting thread.. 2022/3/2 4:24:25EST
+est : 2022/3/2 4:24:25EST
+ 2022/3/2 4:24:25EST
+Sequence :11 2022/3/2 4:24:25EST
+Sequence :11 2022/3/2 4:24:25EST
+Sequence :11 2022/3/2 4:24:25EST
+Sequence :11 2022/3/2 4:24:25EST
+Sequence :11 2022/3/2 4:24:25EST
+Sequence :11 2022/3/2 4:24:25EST
+Sequence :11 2022/3/2 4:24:25EST
+Sequence :11 2022/3/2 4:24:25EST
+Sequence :11 2022/3/2 4:24:25EST
+Sequence :11 2022/3/2 4:24:25EST
+Sequence :11 2022/3/2 4:24:25EST
+Sequence :11 2022/3/2 4:24:25EST
+Sequence :11 2022/3/2 4:24:25EST
+Sequence :11 2022/3/2 4:24:25EST
+Sequence :11 2022/3/2 4:24:25EST
+Sequence :11 2022/3/2 4:24:25EST
+Sequence :11 2022/3/2 4:24:25EST
+Sequence :11 2022/3/2 4:24:26EST
+Sequence :11 2022/3/2 4:24:26EST
+Exiting thread.. 2022/3/2 4:24:26EST
+Random Seeded... 2022/3/2 4:28:1EST
+Creating Games...  2022/3/2 4:28:1EST
+Game %d created... 
+01 2022/3/2 4:28:1EST
+Game %d created... 
+11 2022/3/2 4:28:1EST
+Game %d created... 
+21 2022/3/2 4:28:1EST
+Game %d created... 
+31 2022/3/2 4:28:1EST
+Game %d created... 
+41 2022/3/2 4:28:1EST
+Game %d created... 
+51 2022/3/2 4:28:1EST
+Game %d created... 
+61 2022/3/2 4:28:1EST
+Game %d created... 
+71 2022/3/2 4:28:1EST
+Cleaning WSA...  2022/3/2 4:28:1EST
+Config the local address...  2022/3/2 4:28:1EST
+Creating Socket...  2022/3/2 4:28:1EST
+Start Listening...  2022/3/2 4:28:1EST
+Waiting for connection...  2022/3/2 4:28:1EST
+Recieved Request 0 2022/3/2 4:28:34EST
+Sending Ack: 1 2022/3/2 4:28:34EST
+Sending data: 2 2022/3/2 4:28:34EST
+Recieve Ack 3 2022/3/2 4:28:34EST
+Exiting thread.. 2022/3/2 4:28:35EST
+Exiting thread.. 2022/3/2 4:28:35EST
+promise set(Fin) 2022/3/2 4:28:35EST
+Waiting for connection...  2022/3/2 4:30:54EST

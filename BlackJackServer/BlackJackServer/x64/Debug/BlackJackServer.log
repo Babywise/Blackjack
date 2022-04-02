@@ -1,20 +1,7 @@
-﻿  Client.cpp
-C:\Users\Islam\Desktop\Git JackyBlack\Blackjack\BlackJackServer\BlackJackServer\Winsock.h(16,1): warning C4005: '_WIN32_WINNT': macro redefinition
+﻿  Source.cpp
+C:\Users\nickv\Desktop\Blackjack\BlackJackServer\BlackJackServer\Winsock.h(16,1): warning C4005: '_WIN32_WINNT': macro redefinition
 C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\sdkddkver.h(218): message : see previous definition of '_WIN32_WINNT'
-  Menu.cpp
-  Source.cpp
-C:\Users\Islam\Desktop\Git JackyBlack\Blackjack\BlackJackServer\BlackJackServer\Winsock.h(16,1): warning C4005: '_WIN32_WINNT': macro redefinition
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\sdkddkver.h(218): message : see previous definition of '_WIN32_WINNT'
-C:\Users\Islam\Desktop\Git JackyBlack\Blackjack\BlackJackServer\BlackJackServer\Source.cpp(73,12): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
-C:\Users\Islam\Desktop\Git JackyBlack\Blackjack\BlackJackServer\BlackJackServer\Source.cpp(76,6): warning C4101: 'MAX_GAMES': unreferenced local variable
-  winsock.cpp
-C:\Users\Islam\Desktop\Git JackyBlack\Blackjack\BlackJackServer\BlackJackServer\Winsock.h(16,1): warning C4005: '_WIN32_WINNT': macro redefinition
-C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\sdkddkver.h(218): message : see previous definition of '_WIN32_WINNT'
-C:\Users\Islam\Desktop\Git JackyBlack\Blackjack\BlackJackServer\BlackJackServer\winsock.cpp(40,5): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
-C:\Users\Islam\Desktop\Git JackyBlack\Blackjack\BlackJackServer\BlackJackServer\winsock.cpp(80,22): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-C:\Users\Islam\Desktop\Git JackyBlack\Blackjack\BlackJackServer\BlackJackServer\winsock.cpp(112,25): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-  Generating Code...
-C:\Users\Islam\Desktop\Git JackyBlack\Blackjack\BlackJackServer\BlackJackServer\winsock.cpp(218): warning C4715: 'sendClientPacket': not all control paths return a value
-C:\Users\Islam\Desktop\Git JackyBlack\Blackjack\BlackJackServer\BlackJackServer\PacketManager.h(118): warning C4715: 'PacketManager::setupPacket': not all control paths return a value
-C:\Users\Islam\Desktop\Git JackyBlack\Blackjack\BlackJackServer\BlackJackServer\PacketManager.h(118): warning C4715: 'PacketManager::setupPacket': not all control paths return a value
-  BlackJackServer.vcxproj -> C:\Users\Islam\Desktop\Git JackyBlack\Blackjack\BlackJackServer\x64\Debug\BlackJackClient.exe
+C:\Users\nickv\Desktop\Blackjack\BlackJackServer\BlackJackServer\Source.cpp(73,12): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+C:\Users\nickv\Desktop\Blackjack\BlackJackServer\BlackJackServer\Source.cpp(76,6): warning C4101: 'MAX_GAMES': unreferenced local variable
+C:\Users\nickv\Desktop\Blackjack\BlackJackServer\BlackJackServer\PacketManager.h(118): warning C4715: 'PacketManager::setupPacket': not all control paths return a value
+  BlackJackServer.vcxproj -> C:\Users\nickv\Desktop\Blackjack\BlackJackServer\x64\Debug\BlackJackClient.exe

@@ -26,7 +26,7 @@ struct addrinfo* ConfigureLocalAddress()
 
 
 void closeSocket(SOCKET connection) {
-	printf("Closing the connection");
+	//printf("Closing the connection");
 	closesocket(connection);
 }
 
@@ -130,7 +130,7 @@ void sendThread(SOCKET sock, char* buffer, std::future<int> future) {
 		send(sock, buffer, maxPacketSize, 0);
 		MAX++;
 	}
-	cout << "Exiting thread..";
+	//cout << "Exiting thread..";
 	return;
 }
 
@@ -153,18 +153,18 @@ bool sendClientPacket(SOCKET peerSocket, PacketManager &pM) {
 		sequence++;
 	}
 
-	cout << "Sending request :" << sequence << "\n";
+	//cout << "Sending request :" << sequence << "\n";
 	thread sending(sendThread, peerSocket, pM.getPacket()->serialize(), std::move(future));
 	// V1.0  ------------   //send(peerSocket, pM->getPacket()->serialize(), maxPacketSize, 0);
 	char RxBuffer[maxPacketSize] = {};
 	sequence++;
 	// recv next sequence packet
-	cout << "Recieve Ack" << sequence << "\n";
+	//cout << "Recieve Ack" << sequence << "\n";
 	while (true) {
 		if (recv(peerSocket, RxBuffer, maxPacketSize, 0) == -1)
 			return false;
 		pM = PacketManager(RxBuffer);
-		cout << "Sequence :" << pM.getPacket()->getSequence() << "\n";
+		//cout << "Sequence :" << pM.getPacket()->getSequence() << "\n";
 		if (pM.getPacket()->getSequence() == sequence) {
 			break;
 		}
@@ -177,7 +177,7 @@ bool sendClientPacket(SOCKET peerSocket, PacketManager &pM) {
 	//pM = PacketManager(RxBuffer);
 	if (pM.getPacket()->getAck() == 1) {
 		exit.set_value(1);
-		cout << "promise set";
+		//cout << "promise set";
 		
 	} else {
 		return false;
@@ -187,7 +187,7 @@ bool sendClientPacket(SOCKET peerSocket, PacketManager &pM) {
 	memset(RxBuffer, '\0', maxPacketSize);
 	// recv next sequence packet for data
 	sequence++;
-	cout << "Recieve data" << sequence << "\n";
+	//cout << "Recieve data" << sequence << "\n";
 	while (true) {
 		if (recv(peerSocket, RxBuffer, maxPacketSize, 0) == -1)
 			return false;
@@ -208,7 +208,7 @@ bool sendClientPacket(SOCKET peerSocket, PacketManager &pM) {
 	pM.getPacket()->incrementSequence();
 	std::promise<int> exits;
 	std::future<int> futures = exits.get_future();
-	cout << "Send Ack" << sequence << "\n";
+	//cout << "Send Ack" << sequence << "\n";
 	thread sendingAck(sendThread, peerSocket, pM.getPacket()->serialize(), std::move(futures));
 
 	if (sendingAck.joinable()) {
@@ -233,7 +233,7 @@ bool sendServerPacket(SOCKET socket_client, PacketManager& pM) {
 	pM.getPacket()->incrementSequence();
 	sequence++;
 
-	cout << "Sending Ack: " << sequence << "\n";
+	//cout << "Sending Ack: " << sequence << "\n";
 	thread sending(sendThread, socket_client, pM.getPacket()->serialize(), std::move(future));
 	//send(socket_client, pM->getPacket()->serialize(), maxPacketSize, 0);
 
@@ -247,12 +247,12 @@ bool sendServerPacket(SOCKET socket_client, PacketManager& pM) {
 	std::promise<int> exits;
 	std::future<int> futures = exits.get_future();
 
-	cout << "Sending data: " << sequence << "\n";
+	//cout << "Sending data: " << sequence << "\n";
 	thread sent(sendThread, socket_client, pM.getPacket()->serialize(), std::move(futures));
 	sequence++;
 	//send(socket_client, pM->getPacket()->serialize(), maxPacketSize, 0);
 	// check ack
-	cout << "Recieve Ack " << sequence << "\n";
+	//cout << "Recieve Ack " << sequence << "\n";
 	while (true) {
 		if (recv(socket_client, RxBuffer, maxPacketSize, 0) == -1)
 			return false;
@@ -264,7 +264,7 @@ bool sendServerPacket(SOCKET socket_client, PacketManager& pM) {
 
 	if (pM.getPacket()->getFin() == 1) {
 		exit.set_value(1);
-		cout << "promise set (Fin)\n";
+		//cout << "promise set (Fin)\n";
 
 	}
 	else {

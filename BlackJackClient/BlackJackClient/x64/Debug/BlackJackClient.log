@@ -1,49 +1,6 @@
-﻿  BlackJack.cpp
-C:\Users\Islam\Desktop\Git JackyBlack\Blackjack\BlackJackClient\BlackJackClient\BlackJack.h(54,19): warning C4305: 'initializing': truncation from 'double' to 'float'
-C:\Users\Islam\Desktop\Git JackyBlack\Blackjack\BlackJackClient\BlackJackClient\BlackJack.cpp(46,19): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
-C:\Users\Islam\Desktop\Git JackyBlack\Blackjack\BlackJackClient\BlackJackClient\BlackJack.cpp(62,20): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
-C:\Users\Islam\Desktop\Git JackyBlack\Blackjack\BlackJackClient\BlackJackClient\BlackJack.cpp(418,49): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-C:\Users\Islam\Desktop\Git JackyBlack\Blackjack\BlackJackClient\BlackJackClient\BlackJack.cpp(429,33): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
-C:\Users\Islam\Desktop\Git JackyBlack\Blackjack\BlackJackClient\BlackJackClient\BlackJack.cpp(439,146): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
-C:\Users\Islam\Desktop\Git JackyBlack\Blackjack\BlackJackClient\BlackJackClient\BlackJack.cpp(466,61): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
-C:\Users\Islam\Desktop\Git JackyBlack\Blackjack\BlackJackClient\BlackJackClient\BlackJack.cpp(469,61): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
-C:\Users\Islam\Desktop\Git JackyBlack\Blackjack\BlackJackClient\BlackJackClient\BlackJack.cpp(483,58): warning C4244: '+=': conversion from 'double' to 'float', possible loss of data
-C:\Users\Islam\Desktop\Git JackyBlack\Blackjack\BlackJackClient\BlackJackClient\BlackJack.cpp(489,58): warning C4244: '+=': conversion from 'double' to 'float', possible loss of data
-C:\Users\Islam\Desktop\Git JackyBlack\Blackjack\BlackJackClient\BlackJackClient\BlackJack.cpp(512,26): warning C4305: '=': truncation from 'double' to 'float'
-C:\Users\Islam\Desktop\Git JackyBlack\Blackjack\BlackJackClient\BlackJackClient\BlackJack.cpp(515,27): warning C4305: '=': truncation from 'double' to 'float'
-C:\Users\Islam\Desktop\Git JackyBlack\Blackjack\BlackJackClient\BlackJackClient\BlackJack.cpp(518,27): warning C4305: '=': truncation from 'double' to 'float'
-C:\Users\Islam\Desktop\Git JackyBlack\Blackjack\BlackJackClient\BlackJackClient\BlackJack.cpp(557,117): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
-C:\Users\Islam\Desktop\Git JackyBlack\Blackjack\BlackJackClient\BlackJackClient\BlackJack.cpp(572,82): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
-C:\Users\Islam\Desktop\Git JackyBlack\Blackjack\BlackJackClient\BlackJackClient\BlackJack.cpp(592,35): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
-C:\Users\Islam\Desktop\Git JackyBlack\Blackjack\BlackJackClient\BlackJackClient\BlackJack.cpp(633,37): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
-C:\Users\Islam\Desktop\Git JackyBlack\Blackjack\BlackJackClient\BlackJackClient\BlackJack.cpp(663,36): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
-C:\Users\Islam\Desktop\Git JackyBlack\Blackjack\BlackJackClient\BlackJackClient\BlackJack.cpp(687,37): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
-C:\Users\Islam\Desktop\Git JackyBlack\Blackjack\BlackJackClient\BlackJackClient\BlackJack.cpp(694,37): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
-C:\Users\Islam\Desktop\Git JackyBlack\Blackjack\BlackJackClient\BlackJackClient\BlackJack.cpp(742,38): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
-C:\Users\Islam\Desktop\Git JackyBlack\Blackjack\BlackJackClient\BlackJackClient\BlackJack.cpp(743,36): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
-C:\Users\Islam\Desktop\Git JackyBlack\Blackjack\BlackJackClient\BlackJackClient\BlackJack.cpp(798,37): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
-C:\Users\Islam\Desktop\Git JackyBlack\Blackjack\BlackJackClient\BlackJackClient\BlackJack.cpp(873,26): warning C4305: '=': truncation from 'double' to 'float'
-C:\Users\Islam\Desktop\Git JackyBlack\Blackjack\BlackJackClient\BlackJackClient\BlackJack.cpp(876,27): warning C4305: '=': truncation from 'double' to 'float'
-C:\Users\Islam\Desktop\Git JackyBlack\Blackjack\BlackJackClient\BlackJackClient\BlackJack.cpp(879,27): warning C4305: '=': truncation from 'double' to 'float'
-C:\Users\Islam\Desktop\Git JackyBlack\Blackjack\BlackJackClient\BlackJackClient\BlackJack.cpp(905,26): warning C4305: '=': truncation from 'double' to 'float'
-C:\Users\Islam\Desktop\Git JackyBlack\Blackjack\BlackJackClient\BlackJackClient\BlackJack.cpp(908,27): warning C4305: '=': truncation from 'double' to 'float'
-C:\Users\Islam\Desktop\Git JackyBlack\Blackjack\BlackJackClient\BlackJackClient\BlackJack.cpp(911,27): warning C4305: '=': truncation from 'double' to 'float'
-C:\Users\Islam\Desktop\Git JackyBlack\Blackjack\BlackJackClient\BlackJackClient\BlackJack.cpp(914,27): warning C4305: '=': truncation from 'double' to 'float'
-C:\Users\Islam\Desktop\Git JackyBlack\Blackjack\BlackJackClient\BlackJackClient\BlackJack.cpp(943,33): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
-  ServerThreads.cpp
-C:\Users\Islam\Desktop\Git JackyBlack\Blackjack\BlackJackClient\BlackJackClient\ServerThreads.cpp(117,25): warning C4474: 'printf' : too many arguments passed for format string
-C:\Users\Islam\Desktop\Git JackyBlack\Blackjack\BlackJackClient\BlackJackClient\ServerThreads.cpp(117,25): message : placeholders and their parameters expect 0 variadic arguments, but 1 were provided
-  Source.cpp
-C:\Users\Islam\Desktop\Git JackyBlack\Blackjack\BlackJackClient\BlackJackClient\BlackJack.h(54,19): warning C4305: 'initializing': truncation from 'double' to 'float'
-C:\Users\Islam\Desktop\Git JackyBlack\Blackjack\BlackJackClient\BlackJackClient\Source.cpp(9,12): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
-  server.cpp
-C:\Users\Islam\Desktop\Git JackyBlack\Blackjack\BlackJackClient\BlackJackClient\BlackJack.h(54,19): warning C4305: 'initializing': truncation from 'double' to 'float'
-C:\Users\Islam\Desktop\Git JackyBlack\Blackjack\BlackJackClient\BlackJackClient\server.cpp(25,31): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
-C:\Users\Islam\Desktop\Git JackyBlack\Blackjack\BlackJackClient\BlackJackClient\server.cpp(32,19): warning C4805: '==': unsafe mix of type 'int' and type 'bool' in operation
-C:\Users\Islam\Desktop\Git JackyBlack\Blackjack\BlackJackClient\BlackJackClient\server.cpp(119,70): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
-  Generating Code...
-C:\Users\Islam\Desktop\Git JackyBlack\Blackjack\BlackJackServer\BlackJackServer\PacketManager.h(118): warning C4715: 'PacketManager::setupPacket': not all control paths return a value
-C:\Users\Islam\Desktop\Git JackyBlack\Blackjack\BlackJackClient\BlackJackClient\ServerThreads.cpp(178): warning C4715: 'sendClientPacket': not all control paths return a value
-C:\Users\Islam\Desktop\Git JackyBlack\Blackjack\BlackJackServer\BlackJackServer\PacketManager.h(118): warning C4715: 'PacketManager::setupPacket': not all control paths return a value
-C:\Users\Islam\Desktop\Git JackyBlack\Blackjack\BlackJackServer\BlackJackServer\PacketManager.h(118): warning C4715: 'PacketManager::setupPacket': not all control paths return a value
-  BlackJackClient.vcxproj -> C:\Users\Islam\Desktop\Git JackyBlack\Blackjack\BlackJackServer\x64\Debug\BlackJackServer.exe
+﻿  ServerThreads.cpp
+C:\Users\nickv\Desktop\Blackjack\BlackJackClient\BlackJackClient\ServerThreads.cpp(117,25): warning C4474: 'printf' : too many arguments passed for format string
+C:\Users\nickv\Desktop\Blackjack\BlackJackClient\BlackJackClient\ServerThreads.cpp(117,25): message : placeholders and their parameters expect 0 variadic arguments, but 1 were provided
+C:\Users\nickv\Desktop\Blackjack\BlackJackClient\BlackJackClient\ServerThreads.cpp(178): warning C4715: 'sendClientPacket': not all control paths return a value
+C:\Users\nickv\Desktop\Blackjack\BlackJackServer\BlackJackServer\PacketManager.h(118): warning C4715: 'PacketManager::setupPacket': not all control paths return a value
+  BlackJackClient.vcxproj -> C:\Users\nickv\Desktop\Blackjack\BlackJackServer\x64\Debug\BlackJackServer.exe
