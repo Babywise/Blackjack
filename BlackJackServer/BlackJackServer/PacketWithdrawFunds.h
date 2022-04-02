@@ -17,7 +17,7 @@ class PacketWithdrawFunds : public Packet {
 public:
 	// creating
 	PacketWithdrawFunds() : Packet() {
-		Head.Source = 0, Head.Destination = 0, Head.Bytes = sizeof(Body) + emptyPacketSize, Head.Fin = 0, Head.Ack = 0, Head.pType = PacketType::packetAddFunds;
+		Head.Source = 0, Head.Destination = 0, Head.Bytes = sizeof(Body) + emptyPacketSize, Head.Fin = 0, Head.Ack = 0, Head.pType = PacketType::packetWithdrawFunds;
 		Body.cardNumber = 0, Body.amountToRemove = 0;
 	};
 

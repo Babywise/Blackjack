@@ -77,6 +77,7 @@
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <LinkIncremental>true</LinkIncremental>
+    <IncludePath>C:\Users\Islam\Desktop\Git JackyBlack\Blackjack\BlackJackClient\BlackJackClient;C:\Users\Islam\Desktop\Git JackyBlack\Blackjack\BlackJackServer\BlackJackServer;$(IncludePath)</IncludePath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <LinkIncremental>true</LinkIncremental>
@@ -99,7 +100,7 @@
     </ClCompile>
     <Link>
       <SubSystem>Windows</SubSystem>
-      <AdditionalLibraryDirectories>$(VCInstallDir)UnitTest\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalLibraryDirectories>C:\Users\Islam\Desktop\Git JackyBlack\Blackjack\BlackJackServer\BlackJackServer\x64\Debug;C:\Users\Islam\Desktop\Git JackyBlack\Blackjack\BlackJackClient\BlackJackClient\x64\Debug;$(VCInstallDir)UnitTest\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
@@ -166,6 +167,14 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="pch.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\BlackJackClient\BlackJackClient\BlackJackClient.vcxproj">
+      <Project>{286d1391-53c0-4aac-98a2-2d7043a8b2a1}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\BlackJackServer\BlackJackServer.vcxproj">
+      <Project>{62b85f26-691a-4cfa-85c1-7eb55b35eb43}</Project>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
